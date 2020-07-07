@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>CS699 - Special Topics in Computer Science - Cloud, Fog, Edge Computing</title>
+
+  <!-- Bootstrap CSS -->
+  <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        rel="stylesheet">
+  <link href="css/epl133.css" rel="stylesheet">
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="pics/foundation-icons/foundation-icons.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+    $(document).ready(function () {
+      /*$(".btn-primary").click(function () {
+        $(".collapse").collapse('toggle');
+      });*/
+      $(".btn-success").click(function () {
+        $("table .collapse").collapse('toggle');
+      });
+      /*$(".btn-warning").click(function () {
+        $(".collapse").collapse('hide');
+      });*/
+    });
+  </script>
+
+  <style>
+    .jumbotron {
+      background-color: white;
+      color: black;
+    }
+
+    /* Adds borders for tabs */
+    .tab-content {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .nav-tabs {
+      margin-bottom: 0;
+    }
+
+    .btn-success:hover {
+      background-color: #449d44;
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="container">
+  <div class="hidden-print">
+    <div class="row" style="margin:5px; padding-top:5px; padding-bottom: 10px;">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 display-cell hidden-print  hidden-sm hidden-xs">
+        <a href="http://www.cs.ucy.ac.cy" target="_new" class="img-responsive"><img src="pics/LogoCSEn.gif"
+                                                                                    alt="CS UCY Logo"
+                                                                                    width="260" height="90">
+        </a></div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  display-cell text-center">
+        <h3>CS699: Special Topics in Computer Science <br> Cloud, Fog, Edge Computing</h3>
+        <h4>Course Outline</h4>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12  display-cell hidden-print hidden-sm hidden-xs">
+        <div width="24%" align="right"><a href="https://rais-itn.eu/"><img src="pics/LogoRAIS.svg" width="152"
+                                                                           height="67" alt="RAIS Logo"></a>
+          <h4>Fall Semester</h4></div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="padding:10px 10px">
+      <nav class="collapse navbar-collapse">
+        <ul class="nav nav-tabs" id=epl425-nav role="navigation">
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="schedule.html">Course Outline</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="assignments.html">Assignments</a></li>
+          <li class="active"><a href="contract.html">Contract</a></li>
+          <li><a href="" target="_new">Online Forum</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <nav class="navbar navbar-default visible-xs">
+      <div class="container-fluid visible-xs">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed visible-xs"
+                  data-target="#myNavbar" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Homepage</a>
+        </div>
+        <div class="navbar-collapse collapse" id="myNavbar">
+          <ul class="nav navbar-bar">
+            <li><a href="schedule.html">Course Outline</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
+            <li><a href="contract.html">Contract</a></li>
+            <li><a href="" target="_new">Online Forum</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <h3 class="visible-print">CS699: Special Topics in Computer Science <br> Cloud, Fog, Edge Computing<br> Objectives and
+    Evaluation</h3>
+
+  <h3>Objectives and Evaluation
+  </h3>
+
+  <div class="container">
+    <div style="border:solid 1px; padding-left:2px; border-color:#B3B3B3; background-color: #FFFFF9">
+      <strong>Instructor:</strong><a href="http://www.cs.ucy.ac.cy/mdd" target="_new"> Dr. Marios D. Dikaiakos</a>,
+      Professor<br>
+      <strong>Teaching Assistant:</strong> TBA<br>
+      <strong>ECTS Credits:</strong> 8<br>
+      <strong>Semester:</strong> Fall<br>
+      <strong>Academic Year:</strong> 2019-2020<br>
+      <strong>Course Level:</strong> Post-graduate.<br>
+      <strong>Course Type:</strong> Restricted choice. Free Elective.<br>
+      <strong>Programme of Study:</strong> Restricted choice for the M.Sc. in Computer Science and Ph.D. in Computer
+      Science programs.<br>
+      <strong>Prerequisites:</strong> CS601, CS605, CS603 or Professors' approval.<br>
+      <strong>Language of instruction:</strong> English.<br>
+      <strong>Online Forum:</strong> <a href="" target="_new"></a><br>
+      <strong>Teaching Schedule:</strong> Three hours of lectures and one hour of recitation per week.
+      <dl>
+        <dt>Lectures:</dt>
+        <dd>TBA.</dd>
+        <dt>Recitation:</dt>
+        <dd>TBA.</dd>
+      </dl>
+    </div>
+
+    <h4>Objectives</h4>
+    <article>
+      The objective of this course is to promote the research and technology culture in the graduate program
+      of the Computer Science Department. The course focuses on mature and emerging technologies for Cloud, Fog and
+      Edge Computing, and aims at reviewing the current and recent scientific literature, with the goal to build an
+      understanding of fundamental concepts, techniques and results that shape the state-of-the-art in Cloud, Fog
+      and Edge Computing infrastructures as well as of prevalent paradigms for developing and deploying applications
+      on these infrastructures.
+    </article>
+    <h4 id="LO">Learning outcomes and skills</h4>
+    <article>
+      The students who complete this course successfully, will be able to:
+      <ol>
+        <li>Understand and explain various basic concepts related to Cloud computing technologies: clusters, data
+          centers, middleware, Cloud computing models (IaaS, PaaS, SaaS), Fog, and Edge.
+        </li>
+        <li>Identify, understand, and explain principles, concepts and terminology related to
+          virtualization, containers, and microservices.
+        </li>
+        <li>Experiment with and apply Docker containers, Docker Swarm and Kubernetes.</li>
+        <li>Understand, describe, experiment with, and apply the Microservice application-development paradigm and
+          related tools.
+        </li>
+        <li>Gain a broad view of the recent research literature in Cloud, Fog and Edge computing.</li>
+        <li>Analyze and evaluate research ideas, especially for infrastructure and applications based
+          on advanced Cloud, Fog and Edge computing technologies.
+        </li>
+        <li>Undertake literature surveys, identify and formulate open research problems, and write-up
+          scientific summaries and survey papers.
+        </li>
+        <li>Critically read, appraise and present scientific papers.</li>
+      </ol>
+    </article>
+
+    <h4>Teaching and Learning Methods</h4>
+    <article>
+      <p>Students will meet the expected learning outcomes through participation to lectures, invited talks,
+        active participation to and presentations in class discussions, reviewing videos, reading and
+        writing assignments, and actual practice with programming assignments and tools. The course comprises
+        3 hours of weekly lectures, 1 hour of recitation, reading and writing assignments, and a semester-long
+        group project. <strong>Participation of lectures and recitation is obligatory.</strong></p>
+      <p>In summary, the teaching and learning methods are the following:
+      <ol>
+        <li>Participation to <strong>Lectures</strong>, where the main concepts and methodologies covered by the course
+          are presented and critically appraised. Students are required to review and study the materials for
+          each lecture, as defined in the <a href="schedule.html" target="_blank ">Course Outline</a>, and
+          actively participate in class.
+        </li>
+        <li>Participation to <strong>Recitation</strong>, where the class will expand on topics covered in the Lectures,
+          through presentation of tools, open discussion, and viewing and discussing of relevant online material.
+        </li>
+        <li><strong>In-class presentations:</strong> Students are assigned papers on a weekly basis, which they are
+          required to critically read and present in class, leading an ensuing discussion in class about the papers'
+          contribution and related literature.
+        </li>
+        <li><strong>Reading and writing assignments:</strong> Students are assigned readings (books, papers), for
+          which they are required to compose a write-up.
+        </li>
+        <li><strong>Group projects</strong>, where each team of students is expected to work on a project that will be
+          assigned by the professor. Several projects will be done on top of the <strong>Fogify</strong> emulator
+          developed at
+          the <a href="http://linc.ucy.ac.cy" target="_blank">Laboratory for Internet Computing.</a> The Group
+          project comprise three deliverables: i) Project Description and Plan report. ii) Oral Presentation and
+          iii) Developed Code and Written Final report.
+        </li>
+      </ol>
+    </article>
+
+    <h4>Evaluation and Grading</h4>
+    Student progress is evaluated <strong>continuously</strong> through class participation and the assessment of
+    in-class presentations, writing assignments and group project deliverables. The final grade is based on the
+    following formula:
+    <dl class="dl-horizontal" style="border: solid 1px; background-color: #FFFFF9">
+      <dt>Writing Assignments (Guest Lecture write-ups and Essay):</dt>
+      <dd>15%</dd>
+      <dt>In-class Presentations:</dt>
+      <dd>40%</dd>
+      <dt>Term Project:</dt>
+      <dd>45%</dd>
+    </dl>
+
+    <h4>ECTS Analysis</h4>
+    <article>
+      One ECTS unit corresponds to <strong>25-30 hours of work undertaken by an average student</strong> to complete
+      successfully expected learning outcomes. Consequently, the successful completion of the class
+      requires a total of <strong>187.5-225 hours of work</strong>, on average. The workload of the average student
+      is analysed as follows:
+      <ol list-style-type="none">
+        <li><strong>Class and Recitation participation:</strong> 4 hours per week for 13 weeks, totalling to 52
+          hours.
+        </li>
+        <li><strong>Study and home:</strong> 3 hours per week for 13 weeks, totalling 39 hours.</li>
+        <li><strong>In-class Presentations (study and preparation):</strong> 30 hours</li>
+        <li><strong>Literature surveys and Write-ups:</strong> 30 hours.
+        </li>
+        <li><strong>Group project:</strong> 100 hours.
+        <li><strong>Group project Final Report and Presentation:</strong> 10 hours</li>
+      </ol>
+      Consequently, the total workload for successfully completing this course, is estimated to 209 hours on average.
+    </article>
+
+    <h4>Bibliography</h4>
+    <article>Readings for this class comprise chapters from books and papers from the scientific literature. Required
+      and additional readings will be posted on the <a href="schedule.html" target="_blank">course outline</a> web page.
+    </article>
+
+    <h4>Other instructions</h4>
+    <article>
+      <ul>
+        <li>Κάθε φοιτητής δικαιούται να παρακολουθεί τις διαλέξεις και τα εργαστήρια χωρίς ενοχλήσεις και αδικαιολόγητες
+          διακοπές. Παρακαλούνται λοιπόν όλοι να διαφυλάξουν το δικαίωμα αυτό, σεβόμενοι τον χρόνο ενάρξεως και λήξεως
+          των μαθημάτων, την καθαριότητα των αμφιθεάτρων και των εργαστηριακών χώρων και γενικώς την ακαδημαϊκή
+          ελευθερία.
+        </li>
+        <li>Plagiarism is strongly prohibited.
+        </li>
+        <li>You will not get any credit for late submissions. We will grant extensions only in the case of
+          illness (with a doctor's note) or extraordinary circumstances. Please let us know ahead of time if illness or
+          an extraordinary circumstance will cause you to submit a writeup or paper late, then you should discuss the
+          matter with your instructor as soon as possible.
+        </li>
+      </ul>
+    </article>
+
+    <footer class="hidden-print">
+      <hr/>
+      <p class="text-center">[<a href="index.html">Homepage</a>]</p>
+      <small>Marios Dikaiakos, &copy; 2020</small>
+    </footer>
+
+  </div>
+</div>
+</body>
+</html>
