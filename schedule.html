@@ -137,7 +137,7 @@
     </thead>
     <tbody>
     <tr class="warning">
-      <th class="lead" colspan="2">Module 1: Introduction to Cloud Computing, Fundamental Concepts and Models</th>
+      <th class="lead" colspan="2">Module 1: Introduction to Cloud Computing, Basic Concepts and Models</th>
 
     </tr>
 
@@ -213,7 +213,7 @@
     <!- LECTURE 1 ->
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 1: 11/9/2020</td>
-      <td style="width: 100%"><strong>Key Concepts</strong>
+      <td style="width: 100%"><strong>Middleware</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect1-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
@@ -229,7 +229,8 @@
         <div class="collapse epl425-learnout" id="lect1-learn">
           <strong>Learning outcome:</strong>
           <ul>
-            <li>Review key concepts: Middleware, Edge-to-Edge Arguments</li>
+            <li>Review and explain key concepts: Middleware, Edge-to-Edge Arguments.</li>
+            <li>Understand and explain Current Computing Landscape.</li>
           </ul>
         </div>
         <div class="collapse" id="lect1-read">
@@ -241,8 +242,13 @@
             <li>J. H. Saltzer, D. P. Reed, and D. D. Clark, “End-to-end arguments in system design,”
               ACM Trans. Comput. Syst., vol. 2, no. 4, pp. 277–288, Nov. 1984.
             </li>
-            <li>M. Satyanarayanan, W. Gao, and B. Lucia, “The computing landscape of the 21st century,”
-              HotMobile 2019 - Proc. 20th Int. Work. Mob. Comput. Syst. Appl., pp. 45–50, 2019.
+            <li>
+              A. Carzaniga, G. Pietro Picco and G. Vigna, "Designing distributed applications with mobile code
+              paradigms"
+              Proceeding ICSE '97 Proceedings of the 19th international conference on Software engineering, 1997.
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model" target="_blank">Client-Server
+              Model</a> (Wikipedia).
             </li>
           </ul>
         </div>
@@ -254,14 +260,13 @@
             </li>
           </ul>
         </div>
-
       </td>
     </tr>
 
     <!- LECTURE 2 ->
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 2: 14/9/2020</td>
-      <td style="width: 100%"><strong>Cloud Computing Infrastructure</strong>
+      <td style="width: 100%"><strong>Modern Computing Landscape</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect2-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
@@ -277,12 +282,72 @@
         <div class="collapse epl425-learnout" id="lect2-learn">
           <strong>Learning outcome:</strong>
           <ul>
-            <li>Understand, explain and apply Cloud Computing Definitions and Cloud evolution.</li>
-            <li>Be familiar with the concepts of Edge, Cloud, IAAS, PAAS, SAAS, Fog.</li>
-            <li>Be familiar with recent developments and potential of modern Computer Architecture.</li>
+            <li>Understand recent developments and potential of modern Computer Architecture.</li>
+            <li>Understand recent developments and potential in Computer Networking: Software-defined Networking, 5G.
+            </li>
+            <li>Understand and explain the current computing landscape.</li>
           </ul>
         </div>
         <div class="collapse" id="lect2-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>J. L. Hennessy and D. A. Patterson, “A new golden age for computer architecture,”
+              Commun. ACM, vol. 62, no. 2, pp. 48–60, 2019.
+            </li>
+            <li>N. Feamster, J. Rexford, E. Z.-A. S. Computer, and U. 2014,
+              “The road to SDN: an intellectual history of programmable networks,” in Dl.Acm.Org.
+            </li>
+            <li>A. Gupta and R. K. Jha, “A Survey of 5G Network: Architecture and Emerging Technologies,”
+              IEEE Access, vol. 3. Institute of Electrical and Electronics Engineers Inc., pp. 1206–1232, 2015.
+            </li>
+            <li>S. Sicari, A. Rizzardi, and A. Coen-Porisini, “5G In the internet of things era: An overview on
+              security and privacy challenges,” Comput. Networks, vol. 179, p. 107345, Oct. 2020.
+            </li>
+            <li>M. Satyanarayanan, W. Gao, and B. Lucia, “The computing landscape of the 21st century,”
+              HotMobile 2019 - Proc. 20th Int. Work. Mob. Comput. Syst. Appl., pp. 45–50, 2019.
+            </li>
+            <li>M. Satyanarayanan, “A Brief History of Cloud Offload: A Personal Journey from Odyssey Through Cyber
+              Foraging to Cloudlets,”
+              ACM SIGMOBILE Mob. Comput. Commun. Rev., vol. 18, no. 4, pp. 19–23, 2015.
+            </li>
+          </ul>
+        </div>
+        <div class="collapse epl425-learnout" id="lect2-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=aA5pqklkkvI" target="_blank">A New Golden Age for Computer
+              Architecture</a> by Dave Patterson, 2019.
+            </li>
+          </ul>
+        </div>
+
+      </td>
+    </tr>
+
+    <!- LECTURE 3 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 3: 18/9/2020</td>
+      <td style="width: 100%"><strong>Cloud Computing: Definition and Taxonomy</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect3-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect3-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect2-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="lect3-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Understand, explain and apply Cloud Computing Definitions and Cloud evolution.</li>
+            <li>Be familiar with the concepts of Edge, Cloud, IAAS, PAAS, SAAS.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect3-read">
           <strong>Readings:</strong>
           <ul>
             <li>M. Armbrust et al., “A view of cloud computing,” Communications of the ACM, vol. 53, no. 4, p. 50,
@@ -294,112 +359,37 @@
             </li>
             <li>E. Jonas et al., “Cloud Programming Simplified: A Berkeley View on Serverless Computing,” Feb. 2019.
             </li>
-            <li>J. L. Hennessy and D. A. Patterson, “A new golden age for computer architecture,” Commun. ACM, vol. 62,
-              no. 2, pp. 48–60, 2019.
-            </li>
-          </ul>
-        </div>
-        <div class="collapse epl425-learnout" id="lect2-videos">
-          <strong>Videos:</strong>
-          <ul>
-            <li><a href="https://www.youtube.com/watch?v=aA5pqklkkvI" target="_blank">A New Golden Age for Computer
-              Architecture</a> by
-              Dave Patterson, 2019.
-            </li>
-          </ul>
-        </div>
-
-      </td>
-    </tr>
-
-    <tr class="warning">
-      <th class="lead" colspan="2">Module 2: Warehouse Scale Computers</th>
-    </tr>
-
-
-    <!- LECTURE 4 ->
-
-    <tr>
-      <td scope="row" style="white-space:nowrap">Lecture 4: 23/9/2019</td>
-      <td><strong>Business Model Canvas. </strong>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#lect4-learn" data-toggle="collapse"
-                type="button">
-          <span class="fa fa-certificate"></span> Learning Outcome
-        </button>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#lect4-read" data-toggle="collapse"
-                type="button">
-          <span class="glyphicon glyphicon-book"></span> Readings
-        </button>
-        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect4-videos"
-                data-toggle="collapse"
-                type="button"> Videos
-        </button>
-        <div class="collapse epl425-learnout" id="lect4-learn">
-          <strong>Learning outcome:</strong> Understand, Describe and Explain the key aspects of the Business Model
-          Canvas.
-        </div>
-        <div class="collapse" id="lect4-read">
-          <strong>Readings:</strong>
-          Chapter 1: Canvas. <em>Business Model Generation</em>, Alexander Osterwalder and Yves Pigneur, Wiley 2010.
-        </div>
-        <div class="collapse epl425-learnout" id="lect4-videos">
-          <strong>Videos:</strong>
-          <ul>
-            <li><a href="https://youtu.be/wwShFsSFb-Y" target="_blank">From Business Ideas to Business Models</a> by
-              Strategyzer.
-            </li>
-            <li><a href="https://youtu.be/wlKP-BaC0jA" target="_blank">Business Model Canvas</a> by Strategyzer.</li>
-            <li><a href="https://youtu.be/QoAOzMTLP5s" target="_blank">Business Model Canvas</a> explained, by
-              Strategyzer.
-            </li>
-            <li><a href="https://youtu.be/IP0cUBWTgpY" target="_blank">The Business Model Canvas - 9 Steps to Creating a
-              Successful Business Model</a> by Business Channel, YouTube.
-            </li>
-            <li><a href="https://www.coursera.org/learn/business-model-canvas" target="_blank">The Business Model
-              Canvas</a> course at Coursera.
-            </li>
           </ul>
         </div>
       </td>
     </tr>
 
-    <!- -- PRECEPT 4 -->
+    <!- PRECEPT 2 ->
     <tr>
-      <td scope="row" style="white-space:nowrap">Precept 4: 25/9/2019</td>
-      <td><strong>Elaborate your idea and Create your Mission Statement. </strong>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-learn" data-toggle="collapse"
+      <td scope="row" style="white-space:nowrap">Precept 2: 18/9/2020</td>
+      <td><strong>State of the Cloud</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec2-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
         </button>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-read" data-toggle="collapse"
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec2-read" data-toggle="collapse"
                 type="button">
           <span class="glyphicon glyphicon-book"></span> Readings
         </button>
-        <div class="collapse epl425-learnout" id="prec4-learn">
+        <div class="collapse epl425-learnout" id="prec2-learn">
           <strong>Learning outcome:</strong>
           <ul>
-            <li>Be able to create your company's Mission Statement.</li>
-            <li>One-to-one mentoring about your idea.</li>
+            <li>Review the state of the Cloud Computing technology and application domains.</li>
           </ul>
         </div>
-        <div class="collapse" id="prec4-read">
-          <strong>Readings:</strong>
+        <div class="collapse" id="prec2-read">
           <ul>
-            <li><a
-              href="https://learn.marsdd.com/mars-library/the-mission-statement-the-basis-for-startups-strategic-planning/"
-              target="_blank">The mission statement: The basis for startups’ strategic planning</a>.
-            </li>
-            <li><a href="https://ideamensch.com/how-to-define-a-mission-and-vision-for-your-startup/" target="_blank">How
-              to define a mission and vision for your startup</a>. 2014.
-            </li>
-            <li><a
-              href="https://www.inc.com/larry-kim/30-inspiring-billion-dollar-startup-company-mission-statements.html"
-              target="_blank">30 Inspiring Billion-Dollar Startup Company Mission Statements</a>
-              by Larry Kim.
-            </li>
           </ul>
         </div>
       </td>
+    </tr>
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 2: Warehouse Scale Computers</th>
     </tr>
 
 
