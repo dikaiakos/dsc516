@@ -586,7 +586,7 @@
           <ul>
             <li>Explore, understand and explain different kinds of failures in datacenters.</li>
             <li>Understand and explain the concepts of availability, replication and partitioning.</li>
-            <li>Understand and explain the CAP theorem.</li>
+            <li>Understand and analyze the CAP theorem.</li>
           </ul>
         </div>
         <div class="collapse" id="lect7-read">
@@ -621,16 +621,156 @@
       </td>
     </tr>
 
-
     <tr class="warning">
       <th class="lead" colspan="2">Module 3: Virtualization and Containers</th>
     </tr>
 
-
-    <tr class="warning">
-      <th class="lead" colspan="2">Module 4: Resource Management</th>
+    <!- LECTURE 8 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 8: 29/9/2020</td>
+      <td style="width: 100%"><strong>Virtualization</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect8-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="lect8-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Examine, understand and assess the concepts of virtualization, virtual machines, and hypervisors.</li>
+            <li>Understand and explain techniques for implementing virtual machines.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect8-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>P. Barham et al., “Xen and the art of virtualization,” Proc. Nineteenth ACM Symp. Oper. Syst. Princ. -
+              SOSP ’03, p. 164, 2003.
+            </li>
+            <li>M. Pearce, S. Zeadally, and R. Hunt, “Virtualization: Issues, Security Threats, and Solutions,” ACM
+              Comput. Surv., vol. 45, no. 2, pp. 1–39, 2013.
+            </li>
+            <li>B. Sotomayor, R. S. Montero, I. M. Llorente, and I. Foster, “Virtual infrastructure management in
+              private and hybrid clouds,” IEEE Internet Comput., vol. 13, no. 5, pp. 14–22, 2009.
+            </li>
+            <li>E. Kotsovinos, “Virtualization: Blessing or Curse?,” Commun. ACM, vol. 54, no. 1, p. 61, Jan. 2011.</li>
+            <li>RedHat, “What is Virtualization.”
+              https://www.redhat.com/en/topics/virtualization/what-is-virtualization.
+            </li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect8-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=kuXVJH9lDQo" target="_blank">Virtualization Basics - Learn how
+              virtualization works.</a> VMWare.
+            </li>
+          </ul>
+        </div>
+      </td>
     </tr>
 
+    <tr>
+      <td scope="row" style="white-space:nowrap">Precept 4: 29/9/2020</td>
+      <td><strong>OpenStack</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec4-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="prec4-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Become familiar with the OpenStack and VMWare virtualization platforms.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec4-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li><a href="https://docs.openstack.org/train/" target="_blank">OpenStack Documentation.</a></li>
+            <li><a href="https://www.vmware.com/solutions/virtualization.html" target="_blank">Virtualization,
+              VMWare.</a></li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec4-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=8kADjGCuSVI" target="_blank">OpenStack Basics</a> OpenStack
+              Foundation.
+            </li>
+            <li><a href="https://www.vmware.com/solutions/virtualization.html" target="_blank">Virtualization,
+              VMWare.</a></li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 9: 2/10/2020</td>
+      <td style="width: 100%"><strong>Virtualization in Cloud Datacenters</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect9-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect9-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="lect9-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Examine, understand and assess techniques for using and managing virtual machines in IaaS clouds.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect9-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>I. Pietri and R. Sakellariou, “Mapping Virtual Machines onto Physical Machines in Cloud Computing,”
+              ACM Comput. Surv., vol. 49, no. 3, pp. 1–30, 2016.
+            </li>
+            <li>Z. Á. Mann and Z. Ádám, “Allocation of Virtual Machines in Cloud Data Centers—A Survey of
+              Problem Models and Optimization Algorithms,” ACM Comput. Surv., vol. 48, no. 1, pp. 1–34, Aug. 2015.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 4: Cloud Storage</th>
+    </tr>
+
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 5: Programming Paradigms</th>
+    </tr>
+
+
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 6: Resource Management, Monitoring and Performance Analysis</th>
+    </tr>
+
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 7: Fog and Edge Computing</th>
+    </tr>
+
+
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 8: Infrastructure Management and DevOps</th>
+    </tr>
 
     </tbody>
   </table>
