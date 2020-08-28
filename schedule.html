@@ -624,7 +624,7 @@
     </tr>
 
     <tr class="warning">
-      <th class="lead" colspan="2">Module 3: Virtualization and Containers</th>
+      <th class="lead" colspan="2">Module 3: Virtualization, Containers and Orchestration</th>
     </tr>
 
     <!- LECTURE 8 ->
@@ -674,6 +674,10 @@
             <li><a href="https://www.youtube.com/watch?v=kuXVJH9lDQo" target="_blank">Virtualization Basics - Learn how
               virtualization works.</a> VMWare.
             </li>
+            <li><a href="https://www.youtube.com/watch?v=NmrJlWDG0yk" target="_blank">Server Virtualization and
+              Hypervisors.</a>
+              (2013) Pluralsight IT.
+            </li>
           </ul>
         </div>
       </td>
@@ -703,9 +707,17 @@
         <div class="collapse" id="prec4-read">
           <strong>Readings:</strong>
           <ul>
+            <li><a href="https://docs.openstack.org/arch-design/arch-requirements.html" target="_blank">OpenStack
+              Architecture Requirements</a>.
+            </li>
             <li><a href="https://docs.openstack.org/train/" target="_blank">OpenStack Documentation.</a></li>
             <li><a href="https://www.vmware.com/solutions/virtualization.html" target="_blank">Virtualization,
               VMWare.</a></li>
+            <li><a
+              href="https://information-technology.web.cern.ch/sites/information-technology.web.cern.ch/files/OpenStack%20training.pdf"
+              target="_blank">OpenStack
+              training</a> (2014), CERN.
+            </li>
           </ul>
         </div>
         <div class="collapse" id="prec4-videos">
@@ -752,10 +764,56 @@
       </td>
     </tr>
 
+    <tr>
+      <td scope="row" style="white-space:nowrap">Precept 5: 6/10/2020</td>
+      <td><strong>Introduction to Docker</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec5-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec5-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec5-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="prec5-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Become familiar with Docker containers.</li>
+            <li>Understand, explain and use Docker.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec5-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>J. Nickoloff and S. Kuenzli (2019), Chapter 1, "Docker in Action." 2nd Edition, Manning.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec5-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=YFl2mCHdv24" target="_blank">Learn Docker in 12 Minutes</a>
+              (2016) by Jake Wright.
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=iqqDU2crIEQ" target="_blank">How to Get Started with
+              Docker?</a> (2020)
+              Peter McKee, Docker, dockercon 2020.
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=Q5POuMHxW-0" target="_blank">Introduction to Docker</a> (2013)
+              by Solomon Hykes.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
     <!- LECTURE 10 ->
     <tr>
-      <td scope="row" style="white-space:nowrap">Lecture 10: 2/10/2020</td>
-      <td style="width: 100%"><strong>Containers</strong>
+      <td scope="row" style="white-space:nowrap">Lecture 10: 6/10/2020</td>
+      <td style="width: 100%"><strong>Containerization in practice with Docker</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect10-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
@@ -772,7 +830,11 @@
           <strong>Learning outcome:</strong>
           <ul>
             <li>Examine, understand and assess the concept of containers.</li>
-            <li>Understand, explain and use Docker.</li>
+            <li>Understand and explain how is software installed on Docker containers?</li>
+            <li>Understand and explain how Docker containers manage storage and networking.</li>
+            <li>Understand and explain how Docker containers manage resource controls.</li>
+            <li>Understand, explain and apply Dockerfile specification for building container images.</li>
+            <li>Understand and explain the key differences and comparison between containers and VMs.</li>
           </ul>
         </div>
         <div class="collapse" id="lect10-read">
@@ -788,7 +850,7 @@
               Operating
               Systems Principles, 16, 218–233. <a href="https://doi.org/10.1145/3132747.3132763" target="_blank">https://doi.org/10.1145/3132747.3132763</a>
             </li>
-            <li>J. Nickoloff and S. Kuenzli (2019), "Docker in Action" 2nd Edition, Manning.</li>
+            <li>J. Nickoloff and S. Kuenzli (2019), Ch. 2-8, "Docker in Action" 2nd Edition, Manning.</li>
           </ul>
           <strong>Additional Readings</strong>
           <ul>
@@ -814,8 +876,174 @@
         <div class="collapse" id="lect10-videos">
           <strong>Videos:</strong>
           <ul>
-            <li><a href="https://www.youtube.com/watch?v=kuXVJH9lDQo" target="_blank">Introduction to Docker.</a> VMWare.
+            <li><a href="https://www.youtube.com/user/dockerrun" target="_blank">Docker channel</a> on YouTube.
             </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 11 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 11: 9/10/2020</td>
+      <td style="width: 100%"><strong>Docker Containers (ctd')</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect11-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect11-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect11-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="lect11-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Examine, understand and assess the concept of containers.</li>
+            <li>Understand and explain how is software installed on Docker containers?</li>
+            <li>Understand and explain how Docker containers manage storage and networking.</li>
+            <li>Understand and explain how Docker containers manage resource controls.</li>
+            <li>Undertand, explain and apply Dockerfile specification for building container images.</li>
+            <li>Understand and explain the key differences and comparison between containers and VMs.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect11-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>P. Sharma, L. Chaufournier, P. Shenoy, and Y. C. Tay, “Containers and virtual machines at scale: A
+              comparative study,” in
+              Proceedings of the 17th International Middleware Conference, Middleware 2016, 2016, pp. 1–13.
+            </li>
+            <li>Manco, F., Mendes, J., Yasukata, K., Lupu, C., Kuenzer, S., Raiciu, C., Schmidt, F., Sati, S., & Huici,
+              F. (2017). My VM is Lighter (and Safer) than your Container. SOSP 2017 - Proceedings of the 26th ACM
+              Symposium on
+              Operating Systems Principles, 16, 218–233.
+              <a href="https://doi.org/10.1145/3132747.3132763"
+                 target="_blank">https://doi.org/10.1145/3132747.3132763</a>
+            </li>
+            <li>J. Nickoloff and S. Kuenzli (2019), Ch. 2-8, "Docker in Action" 2nd Edition, Manning.</li>
+          </ul>
+          <strong>Additional Readings</strong>
+          <ul>
+            <li><a href="https://drive.google.com/file/d/1jklwq0PVCwq90jBXrqes6pMWls9_Gjb5/view" target="_blank">The
+              Docker Book</a> (2017)
+              James Turnbull.
+            </li>
+            <li><a
+              href="https://www.infoworld.com/article/3204171/what-is-docker-the-spark-for-the-container-revolution.html"
+              target="_blank">What is Docker? The spark for the
+              container revolution</a> (2019) by Serdar Yegulalp, InfoWorld.
+            </li>
+            <li><a
+              href="https://hackernoon.com/the-state-of-containers-in-2020-5k1h3ye0?utm_source=facebook.com&utm_medium=social&utm_campaign=containerization-has-come-a-long-way-and&utm_content=37675101"
+              target="_blank">The State of Containers, 2020</a> by Pavan Belagatti.
+            </li>
+            <li><a href="https://github.com/grglzrv/docker-books" target="_blank">Free Docker books</a>, Github.</li>
+            <li><a href="https://www.wired.com/2014/06/eric-brewer-google-docker/" target="_blank">Google Embraces
+              Docker, the Next Big Thing in Cloud Computing</a> (2014) Wired.
+            </li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect11-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li><a href="https://www.youtube.com/user/dockerrun" target="_blank">Docker channel</a> on YouTube.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td scope="row" style="white-space:nowrap">Precept 6: 13/10/2020</td>
+      <td><strong>Introduction to Orchestration Tools</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec6-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec6-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec6-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="prec6-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Become familiar with Docker Compose and Docker Swarm.</li>
+            <li>Become familiar with Kubernetes.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec6-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>J. Nickoloff and S. Kuenzli, Ch. 11-13, "Docker in Action." 2nd Edition, Manning, 2019.</li>
+            <li>Marko Lukša, Ch. 1, "Kubernetes in Action," Manning, 2018.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec6-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=Qw9zlE3t8Ko" target="_blank">Docker Compose in 12 MInutes</a>
+              (2017)
+              Jake Wright.
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=bU2NNFJ-UXA" target="_blank">Docker Swarm Step by Step</a>
+              (2013) by Raghav Pal.
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=ISUmszlMQPU" target="_blank">Introduction to Kuberneters</a>
+              (2019).
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 12 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 12: 13/10/2020</td>
+      <td style="width: 100%"><strong>Resource Orchestration: Concepts and Tools</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect12-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect12-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="lect12-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Understand and explain concepts and challenges related to resource management and orchestration in Cloud
+              clusters.
+            </li>
+            <li>Become familiar and apply the specifications of Docker Compose and Docker Swarm.</li>
+            <li>Understand the principles and technology behind Kubernetes.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect12-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>A. Gulati, A. Holler, M. Ji, G. Shanmuganathan, C. Waldspurger, and X. Zhu,
+              “VMware distributed resource management: design, implementation, and lessons learned,”
+              VMware Tech. J., vol. 1, no. 1, pp. 45--64, 2012.
+            </li>
+            <li>B. Burns, B. Grant, D. Oppenheimer, E. Brewer, and J. Wilkes,
+              “Borg, Omega, and Kubernetes - Lessons Learned from Three Container-Management Systems over a Decade,”
+              ACM Queue, vol. 14, no. February, pp. 70–93, 2016.
+            </li>
+            <li>B. Hindman et al., “Mesos: A platform for fine-grained resource sharing in the data center,”
+              in Proceedings of NSDI 2011: 8th USENIX Symposium on Networked Systems Design and Implementation, 2011,
+              pp. 295–308.
+            </li>
+            <li>J. Nickoloff and S. Kuenzli (2019), Ch. 11-13, "Docker in Action" 2nd Edition, Manning.</li>
+            <li>Marko Lukša, "Kubernetes in Action," Manning, 2018.</li>
           </ul>
         </div>
       </td>
