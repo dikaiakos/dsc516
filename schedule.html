@@ -297,9 +297,6 @@
             <li>N. Feamster, J. Rexford, E. Z.-A. S. Computer, and U. 2014,
               “The road to SDN: an intellectual history of programmable networks,” in Dl.Acm.Org.
             </li>
-            <li>A. Gupta and R. K. Jha, “A Survey of 5G Network: Architecture and Emerging Technologies,”
-              IEEE Access, vol. 3. Institute of Electrical and Electronics Engineers Inc., pp. 1206–1232, 2015.
-            </li>
             <li>S. Sicari, A. Rizzardi, and A. Coen-Porisini, “5G In the internet of things era: An overview on
               security and privacy challenges,” Comput. Networks, vol. 179, p. 107345, Oct. 2020.
             </li>
@@ -309,6 +306,14 @@
             <li>M. Satyanarayanan, “A Brief History of Cloud Offload: A Personal Journey from Odyssey Through Cyber
               Foraging to Cloudlets,”
               ACM SIGMOBILE Mob. Comput. Commun. Rev., vol. 18, no. 4, pp. 19–23, 2015.
+            </li>
+          </ul>
+          <strong>Additional Readings:</strong>
+          <ul>
+            <li>Limoncelli, T. A. (2012). "OpenFlow: A radical new idea in networking: An open standard that enables
+              software-defined networking." Queue, 10(6), 40. https://doi.org/10.1145/2246036.2305856</li>
+            <li>A. Gupta and R. K. Jha, “A Survey of 5G Network: Architecture and Emerging Technologies,”
+              IEEE Access, vol. 3. Institute of Electrical and Electronics Engineers Inc., pp. 1206–1232, 2015.
             </li>
           </ul>
         </div>
@@ -657,6 +662,7 @@
         <div class="collapse" id="lect8-read">
           <strong>Readings:</strong>
           <ul>
+            <li>Vogels, W. (2008). "Beyond server consolidation." In Queue (Vol. 6, Issue 1, pp. 20–26). https://doi.org/10.1145/1348583.1348590</li>
             <li>P. Barham et al., “Xen and the art of virtualization,” Proc. Nineteenth ACM Symp. Oper. Syst. Princ. -
               SOSP ’03, p. 164, 2003.
             </li>
@@ -666,10 +672,13 @@
             <li>B. Sotomayor, R. S. Montero, I. M. Llorente, and I. Foster, “Virtual infrastructure management in
               private and hybrid clouds,” IEEE Internet Comput., vol. 13, no. 5, pp. 14–22, 2009.
             </li>
-            <li>E. Kotsovinos, “Virtualization: Blessing or Curse?,” Commun. ACM, vol. 54, no. 1, p. 61, Jan. 2011.</li>
             <li>RedHat, “What is Virtualization.”
               https://www.redhat.com/en/topics/virtualization/what-is-virtualization.
             </li>
+          </ul>
+          <strong>Additional Readings:</strong>
+          <ul>
+            <li>E. Kotsovinos, “Virtualization: Blessing or Curse?,” Commun. ACM, vol. 54, no. 1, p. 61, Jan. 2011.</li>
           </ul>
         </div>
         <div class="collapse" id="lect8-videos">
@@ -1037,10 +1046,6 @@
               “VMware distributed resource management: design, implementation, and lessons learned,”
               VMware Tech. J., vol. 1, no. 1, pp. 45--64, 2012.
             </li>
-            <li>B. Burns, B. Grant, D. Oppenheimer, E. Brewer, and J. Wilkes,
-              “Borg, Omega, and Kubernetes - Lessons Learned from Three Container-Management Systems over a Decade,”
-              ACM Queue, vol. 14, no. February, pp. 70–93, 2016.
-            </li>
             <li>B. Hindman et al., “Mesos: A platform for fine-grained resource sharing in the data center,”
               in Proceedings of NSDI 2011: 8th USENIX Symposium on Networked Systems Design and Implementation, 2011,
               pp. 295–308.
@@ -1049,8 +1054,6 @@
               “Large-scale cluster management at Google with Borg,” in Proceedings of the European
               Conference on Computer Systems (EuroSys), 2015.
             </li>
-            <li>J. Nickoloff and S. Kuenzli (2019), Ch. 11-13, "Docker in Action" 2nd Edition, Manning.</li>
-            <li>Marko Lukša, "Kubernetes in Action," Manning, 2018.</li>
           </ul>
         </div>
       </td>
@@ -1060,7 +1063,7 @@
     <!- LECTURE 13 ->
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 13: 16/10/2020</td>
-      <td style="width: 100%"><strong>Resource Orchestration: Kubernetes</strong>
+      <td style="width: 100%"><strong>Resource Orchestration: Docker Swarm and Kubernetes</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect13-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
@@ -1089,6 +1092,7 @@
               “Borg, Omega, and Kubernetes - Lessons Learned from Three Container-Management Systems over a Decade,”
               ACM Queue, vol. 14, no. February, pp. 70–93, 2016.
             </li>
+            <li>J. Nickoloff and S. Kuenzli (2019), Ch. 11-13, "Docker in Action" 2nd Edition, Manning.</li>
             <li>Marko Lukša, "Kubernetes in Action," Manning, 2018.</li>
           </ul>
         </div>
@@ -1103,10 +1107,139 @@
       </td>
     </tr>
 
-
+    <tr>
+      <td scope="row" style="white-space:nowrap">Precept 7: 18/10/2020</td>
+      <td><strong>Introduction to Fogify</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec7-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="prec7-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Become familiar with and get ready to implement projects on Fogify.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec7-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>M. Symeonidis, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos, "Fogify: A Fog Computing Emulation Framework."
+              Fifth ACM/IEEE Symposium on Edge Computing (SEC '20).</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec7-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </td>
+    </tr>
 
     <tr class="warning">
       <th class="lead" colspan="2">Module 4: Cloud Storage</th>
+    </tr>
+
+    <!- LECTURE 14 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 14: 18/10/2020</td>
+      <td style="width: 100%"><strong>Cloud Storage</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect14-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect14-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect14-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="lect14-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Understand and explain concepts and challenges related to storage in Cloud computing systems.
+            </li>
+            <li>Understand, explain and apply the concepts of availability, consistency and replication in storage systems.</li>
+            <li>Review the challenges and capabilities of Cloud storage services.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect14-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003).
+              "The Google file system." Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles  - SOSP ’03, 29. https://doi.org/10.1145/945445.945450</li>
+            <li>Calder, B., Wang, J., Ogus, A., Nilakantan, N., Skjolsvold, A., McKelvie, S., Xu, Y., Srivastav, S., Wu, J., Simitci, H., Haridas, J., Uddaraju, C., Khatri, H., Edwards, A., Bedekar, V., Mainali, S., Abbasi, R., Agarwal, A., Haq, M. F. U., … Rigas, L. (2011).
+              "Windows azure storage: A highly available cloud storage service with strong consistency." SOSP’11 - Proceedings of the 23rd ACM Symposium on Operating Systems Principles, 143–157. https://doi.org/10.1145/2043556.2043571</li>
+            <li>DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A., Sivasubramanian, S., Vosshall, P., & Vogels, W. (2007). "Dynamo: Amazon’s highly available key-value store."
+              Operating Systems Review (ACM), 205–220. https://doi.org/10.1145/1294261.1294281</li>
+          </ul>
+          <strong>Additional Readings:</strong>
+          <ul>
+            <li>Bresnahan, J., Keahey, K., LaBissoniere, D., & Freeman, T. (2011). "Cumulus: An open source storage cloud for science." ScienceCloud’11 - Proceedings of the 2nd International Workshop on Scientific Cloud Computing,
+              25–31. https://doi.org/10.1145/1996109.1996115</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect14-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 15 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 15: 21/10/2020</td>
+      <td style="width: 100%"><strong>Cloud Storage (ctd')</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect15-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect15-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect15-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="lect15-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Explore and understand the challenges of building databases on Cloud storage services.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect15-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Cecchet, E., Candea, G., & Ailamaki, A. (2008).
+              "Middleware-based database replication: The gaps between theory and practice." Proceedings of the ACM SIGMOD International Conference on Management of Data, 739–752. https://doi.org/10.1145/1376616.1376691</li>
+            <li>Brantner, M., Florescu, D., Graf, D., Kossmann, D., & Kraska, T. (2008).
+              "Building a database on S3." Proceedings of the ACM SIGMOD International Conference on Management of Data, 3, 251–263. https://doi.org/10.1145/1376616.1376645</li>
+            <li>Kurra, H., Al-Nashif, Y., & Hariri, S. (2013). Resilient cloud data storage services. Proceedings of the 2013 ACM Cloud and Autonomic Computing Conference. https://doi.org/10.1145/2494621.2494634</li>
+            <li>Han, J., Haihong, E., Le, G., & Du, J. (2011). "Survey on NoSQL database." Proceedings - 2011 6th International Conference on Pervasive Computing and Applications, ICPCA 2011, 363–366. https://doi.org/10.1109/ICPCA.2011.6106531</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect15-videos">
+          <strong>Videos:</strong>
+          <ul>
+            <li>
+            </li>
+          </ul>
+        </div>
+      </td>
     </tr>
 
     <tr class="warning">
