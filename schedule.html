@@ -472,6 +472,15 @@
               <a href="http://unicorn-project.eu/wp-content/uploads/2018/04/360874990-UNICORN.pdf" target="_blank">Stakeholders
                 Requirements Analysis</a> UNICORN Project (Deliverable D1.1).
             </li>
+            <li>Gartner, <a href="https://www.gartner.com/smarterwithgartner/4-trends-impacting-cloud-adoption-in-2020/"
+                            target="_blank">"4
+              Trends Impacting Cloud Adoption in 2020"</a> (2020).
+            </li>
+            <li>Gartner, <a
+              href="https://www.gartner.com/smarterwithgartner/top-actions-from-gartner-hype-cycle-for-cloud-security-2020/"
+              target="_blank">Top Actions From Gartner Hype Cycle
+              for Cloud Security</a> (2020).
+            </li>
           </ul>
           <strong>Additional Readings (Computer Architecture and Computer Networking):</strong>
           <ul>
@@ -1001,8 +1010,7 @@
           <strong>Readings: Overview, Introductory Concepts, History</strong>
           <ul>
             <li>RedHat (2020) "<a href="https://www.redhat.com/en/topics/virtualization/what-is-virtualization"
-                                  target="_blank">What is
-              Virtualization?</a>".
+                                  target="_blank">What is Virtualization?</a>".
             </li>
             <li>Vogels, W. (2008). "<a href="https://doi.org/10.1145/1348583.1348590" target="_blank">Beyond server
               consolidation.</a>" In Queue (Vol. 6, Issue 1, pp. 20–26).
@@ -1095,13 +1103,6 @@
             <li>I. Pietri and R. Sakellariou, “Mapping Virtual Machines onto Physical Machines in Cloud
               Computing,” ACM Comput. Surv., vol. 49, no. 3, pp. 1–30, 2016.
             </li>
-            <li>Y. F. Hsu, H. Kuwahara, K. Matsuda, and M. Matsuoka, “Toward a workload allocation optimizer
-              for power saving in data centers,” in Proceedings - 2019 IEEE International Conference on Cloud
-              Engineering, IC2E 2019, 2019, pp. 56–66.
-            </li>
-            <li>B. Sotomayor, R. S. Montero, I. M. Llorente, and I. Foster, “Virtual infrastructure
-              management in private and hybrid clouds,” IEEE Internet Comput., vol. 13, no. 5, pp. 14–22, 2009.
-            </li>
           </ul>
         </div>
       </td>
@@ -1135,30 +1136,11 @@
           </ul>
         </div>
         <div class="collapse" id="lect12-read">
-          <strong>Readings:<br>
-            G. Argyriou presentation:</strong>
-          <ul>
-            <li>P. Sharma, L. Chaufournier, P. Shenoy, and Y. C. Tay, “Containers and virtual machines at
-              scale: A comparative study,” in Proceedings of the 17th International Middleware Conference, Middleware
-              2016,
-              2016, pp.
-              1–13.
-            </li>
-            <li>Manco, F., Mendes, J., Yasukata, K., Lupu, C., Kuenzer, S., Raiciu, C., Schmidt, F., Sati,
-              S., & Huici, F. (2017).
-              My VM is Lighter (and Safer) than your Container. SOSP 2017 - Proceedings of the 26th ACM
-              Symposium on Operating
-              Systems Principles, 16, 218–233. <a href="https://doi.org/10.1145/3132747.3132763"
-                                                  target="_blank">https://doi.org/10.1145/3132747.3132763</a>
-            </li>
-          </ul>
-          <strong>Additional Readings</strong>
+          <strong>Readings:</strong>
           <ul>
             <li>J. Nickoloff and S. Kuenzli (2019), Ch. 2-8, "Docker in Action" 2nd Edition, Manning.</li>
             <li><a href="https://drive.google.com/file/d/1jklwq0PVCwq90jBXrqes6pMWls9_Gjb5/view"
-                   target="_blank">The
-              Docker Book</a> (2017)
-              James Turnbull.
+                   target="_blank">The Docker Book</a> (2017) James Turnbull.
             </li>
             <li><a
               href="https://www.infoworld.com/article/3204171/what-is-docker-the-spark-for-the-container-revolution.html"
@@ -1169,6 +1151,9 @@
               href="https://hackernoon.com/the-state-of-containers-in-2020-5k1h3ye0?utm_source=facebook.com&utm_medium=social&utm_campaign=containerization-has-come-a-long-way-and&utm_content=37675101"
               target="_blank">The State of Containers, 2020</a> by Pavan Belagatti.
             </li>
+          </ul>
+          <strong>Additional Readings</strong>
+          <ul>
             <li><a href="https://github.com/grglzrv/docker-books" target="_blank">Free Docker books</a>,
               Github.
             </li>
@@ -1206,11 +1191,57 @@
       </td>
     </tr>
 
+    <tr>
+      <td scope="row" style="white-space:nowrap">Precept 7: 20/10/2020</td>
+      <td><strong>VM Management Frameworks</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="prec7-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Understand and explain the design issues and functionality of VM management systems.</li>
+            <li>Understand and explain concepts and challenges related to resource management and
+              orchestration in Cloud clusters.
+            </li>
+            <li>Understand and explain concepts and challenges related to resource management and
+              orchestration in Cloud clusters.
+            </li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec7-read">
+          <strong>Readings:</strong><br>
+          <strong>A. Prokopiou presentation:</strong>
+          <ul>
+            <li> A. Gulati, A. Holler, M. Ji, G. Shanmuganathan, C.
+              Waldspurger, and X. Zhu,
+              “VMware distributed resource management: design, implementation, and lessons learned,”
+              VMware Tech. J., vol. 1, no. 1, pp. 45-64, 2012.
+            </li>
+          </ul>
+          <strong>Z. Georgiou presentation:</strong>
+          <ul>
+            <li>Y. F. Hsu, H. Kuwahara, K. Matsuda, and M. Matsuoka, “Toward a workload allocation optimizer
+              for power saving in data centers,” in Proceedings - 2019 IEEE International Conference on Cloud
+              Engineering, IC2E 2019, 2019, pp. 56–66.
+            </li>
+            <li>B. Sotomayor, R. S. Montero, I. M. Llorente, and I. Foster, “Virtual infrastructure
+              management in private and hybrid clouds,” IEEE Internet Comput., vol. 13, no. 5, pp. 14–22, 2009.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
 
     <!- LECTURE 13 ->
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 13: 20/10/2020</td>
-      <td style="width: 100%"><strong>Resource Orchestration</strong>
+      <td style="width: 100%"><strong>VMs and Containers: Performance Evaluation</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect13-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
@@ -1226,38 +1257,48 @@
         <div class="collapse epl425-learnout" id="lect13-learn">
           <strong>Learning outcome:</strong>
           <ul>
-            <li>Understand and explain concepts and challenges related to resource management and
-              orchestration in Cloud clusters.
-            </li>
             <li>Become familiar and apply the specifications of Docker Compose and Docker Swarm.</li>
-            <li>Understand and explain concepts and challenges related to resource management and
-              orchestration in Cloud clusters.
-            </li>
             <li>Understand the principles and technology behind Kubernetes.</li>
           </ul>
         </div>
         <div class="collapse" id="lect13-read">
-          <strong>Readings:</strong>
+          <strong>Readings - G. Argyriou presentation:</strong>
+          <ul>
+            <li>P. Sharma, L. Chaufournier, P. Shenoy, and Y. C. Tay, “Containers and virtual machines at
+              scale: A comparative study,” in Proceedings of the 17th International Middleware Conference, Middleware
+              2016, pp. 1–13.
+            </li>
+            <li>Manco, F., Mendes, J., Yasukata, K., Lupu, C., Kuenzer, S., Raiciu, C., Schmidt, F., Sati,
+              S., & Huici, F. (2017).
+              My VM is Lighter (and Safer) than your Container. SOSP 2017 - Proceedings of the 26th ACM
+              Symposium on Operating
+              Systems Principles, 16, 218–233. <a href="https://doi.org/10.1145/3132747.3132763"
+                                                  target="_blank">https://doi.org/10.1145/3132747.3132763</a>
+            </li>
+          </ul>
+          <strong>Readings - M. Symeonidis presentation:</strong>
+          <ul>
+            <li>M. Symeonidis, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos,
+              <a href="http://grid.ucy.ac.cy/assets/files/publications/pdfs/fogify_moysis_symeonides_2020.pdf"
+                 target="_blank">"Fogify: A Fog
+                Computing Emulation Framework."</a>
+              Proceedings of the 5th ACM/IEEE Symposium on Edge Computing (SEC ’20),
+              San Jose, CA, USA Association for Computing Machinery, New York, NY, USA, 2020
+            </li>
+            <li>M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos,
+              <a href="http://grid.ucy.ac.cy/assets/files/publications/pdfs/demo_emulating_moysis_symeonides_2020.pdf"
+                 target="_blank">"Demo:
+                Emulating Geo-Distributed Fog Services"</a>,
+              Proceedings of the 5th ACM/IEEE Symposium on Edge Computing (SEC ’20), San Jose, CA, USA,
+              Association for Computing Machinery, New York, NY, USA, 2020.
+            </li>
+          </ul>
+
+          <strong>Additional Readings</strong>
           <ul>
             <li>B. Burns, B. Grant, D. Oppenheimer, E. Brewer, and J. Wilkes,
               “Borg, Omega, and Kubernetes - Lessons Learned from Three Container-Management Systems over
               a Decade,” ACM Queue, vol. 14, no. February, pp. 70–93, 2016.
-            </li>
-            <li><strong>A. Prokopiou presentation:</strong> A. Gulati, A. Holler, M. Ji, G. Shanmuganathan, C.
-              Waldspurger, and X. Zhu,
-              “VMware distributed resource management: design, implementation, and lessons learned,”
-              VMware Tech. J., vol. 1, no. 1, pp. 45-64, 2012.
-            </li>
-            <li><strong>A. Kolani presentation:</strong> B . Hindman et al., “Mesos: A platform for fine-grained
-              resource sharing in the data center,”
-              in Proceedings of NSDI 2011: 8th USENIX Symposium on Networked Systems Design and
-              Implementation, 2011,
-              pp. 295–308.
-            </li>
-            <li><strong>A. Gelasis presentation:</strong> A. Verma, L. Pedrosa, M. R. Korupolu, D. Oppenheimer, E. Tune,
-              and J. Wilkes,
-              “Large-scale cluster management at Google with Borg,” in Proceedings of the European
-              Conference on Computer Systems (EuroSys), 2015.
             </li>
           </ul>
           <strong>Additional Readings</strong>
@@ -1294,64 +1335,10 @@
       </td>
     </tr>
 
-    <tr>
-      <td scope="row" style="white-space:nowrap">Precept 7: 20/10/2020</td>
-      <td><strong>Introduction to Fogify</strong>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-learn" data-toggle="collapse"
-                type="button">
-          <span class="fa fa-certificate"></span> Learning Outcome
-        </button>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-read" data-toggle="collapse"
-                type="button">
-          <span class="glyphicon glyphicon-book"></span> Readings
-        </button>
-        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec7-videos"
-                data-toggle="collapse"
-                type="button"> Videos
-        </button>
-        <div class="collapse epl425-learnout" id="prec7-learn">
-          <strong>Learning outcome:</strong>
-          <ul>
-            <li>Become familiar with and get ready to implement projects on Fogify.</li>
-          </ul>
-        </div>
-        <div class="collapse" id="prec7-read">
-          <strong>Readings:</strong>
-          <strong>M. Symeonidis presentation:</strong>
-          <ul>
-            <li>M. Symeonidis, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos,
-              <a href="http://grid.ucy.ac.cy/assets/files/publications/pdfs/fogify_moysis_symeonides_2020.pdf"
-                 target="_blank">"Fogify: A Fog
-                Computing Emulation Framework."</a>
-              Proceedings of the 5th ACM/IEEE Symposium on Edge Computing (SEC ’20),
-              San Jose, CA, USA Association for Computing Machinery, New York, NY, USA, 2020
-            </li>
-            <li>M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos,
-              <a href="http://grid.ucy.ac.cy/assets/files/publications/pdfs/demo_emulating_moysis_symeonides_2020.pdf"
-                 target="_blank">"Demo:
-                Emulating Geo-Distributed Fog Services"</a>,
-              Proceedings of the 5th ACM/IEEE Symposium on Edge Computing (SEC ’20), San Jose, CA, USA,
-              Association for Computing Machinery, New York, NY, USA, 2020.
-            </li>
-          </ul>
-        </div>
-        <div class="collapse" id="prec7-videos">
-          <strong>Videos:</strong>
-          <ul>
-            <li></li>
-          </ul>
-        </div>
-      </td>
-    </tr>
-
-    <tr class="warning">
-      <th class="lead" colspan="2">Module 4: Cloud Storage</th>
-    </tr>
-
     <!- LECTURE 14 ->
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 14: 23/10/2020</td>
-      <td style="width: 100%"><strong>Cloud Storage</strong>
+      <td style="width: 100%"><strong>Cloud Resource Management Systems</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect14-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
@@ -1367,60 +1354,84 @@
         <div class="collapse epl425-learnout" id="lect14-learn">
           <strong>Learning outcome:</strong>
           <ul>
-            <li>Understand and explain concepts and challenges related to storage in Cloud computing
-              systems.
+            <li>Become familiar and explain the main properties, techniques and characteristics of Cloud resource
+              management systems, like Mesos and Borg.
             </li>
-            <li>Understand, explain and apply the concepts of availability, consistency and replication in
-              storage systems.
-            </li>
-            <li>Review the challenges and capabilities of Cloud storage services.</li>
+            <li>Become familiar and describe the functionality of Docker Compose and Docker Swarm.</li>
+            <li>Become familiar and describe the Kubernetes technology.</li>
           </ul>
         </div>
         <div class="collapse" id="lect14-read">
           <strong>Readings:</strong>
           <ul>
-            <li>Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003).
-              "The Google file system." Proceedings of the Nineteenth ACM Symposium on Operating Systems
-              Principles - SOSP ’03, 29. https://doi.org/10.1145/945445.945450
-            </li>
-            <li>Calder, B.et al. (2011).
-              "Windows azure storage: A highly available cloud storage service with strong consistency."
-              SOSP’11 -
-              Proceedings of the 23rd ACM Symposium on Operating Systems Principles, 143–157.
-              https://doi.org/10.1145/2043556.2043571
-            </li>
-            <li>DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A.,
-              Sivasubramanian, S., Vosshall, P., & Vogels, W. (2007). "Dynamo: Amazon’s highly available
-              key-value store."
-              Operating Systems Review (ACM), 205–220. https://doi.org/10.1145/1294261.1294281
+            <li>B. Burns, B. Grant, D. Oppenheimer, E. Brewer, and J. Wilkes,
+              “Borg, Omega, and Kubernetes - Lessons Learned from Three Container-Management Systems over
+              a Decade,” ACM Queue, vol. 14, no. February, pp. 70–93, 2016.
             </li>
           </ul>
-          <strong>Additional Readings:</strong>
+          <strong>A. Kolani presentation:</strong>
           <ul>
-            <li>Bresnahan, J., Keahey, K., LaBissoniere, D., & Freeman, T. (2011). "Cumulus: An open source
-              storage cloud for science." ScienceCloud’11 - Proceedings of the 2nd International Workshop
-              on Scientific Cloud Computing,
-              25–31. https://doi.org/10.1145/1996109.1996115
+            <li>B . Hindman et al., “Mesos: A platform for fine-grained
+              resource sharing in the data center,”
+              in Proceedings of NSDI 2011: 8th USENIX Symposium on Networked Systems Design and
+              Implementation, 2011,
+              pp. 295–308.
             </li>
+          </ul>
+          <strong>A. Gelasis presentation:</strong>
+          <ul>
+            <li>A. Verma, L. Pedrosa, M. R. Korupolu, D. Oppenheimer, E. Tune,
+              and J. Wilkes,
+              “Large-scale cluster management at Google with Borg,” in Proceedings of the European
+              Conference on Computer Systems (EuroSys), 2015.
+            </li>
+          </ul>
+          <strong>M. Agroti presentation:</strong>
+          <ul>
+            <li>R. Peinl, F. Holzschuher, and F. Pfitzer, “Docker Cluster Management for the Cloud -
+              Survey Results and Own Solution,” J. Grid Comput., vol. 14, no. 2, pp. 265–282, 2016.
+            </li>
+          </ul>
+          <strong>Additional Readings</strong>
+          <ul>
+            <li>Marko Lukša, "Kubernetes in Action," Manning, 2018.</li>
+            <li><a href="https://engineering.fb.com/developer-tools/zookeeper-twine/" target="_blank">Containerizing
+              ZooKeeper with Twine: Powering container orchestration from within</a> (2020) Christopher Bunn, Facebook.
+            </li>
+            <li>J. Nickoloff and S. Kuenzli (2019), Ch. 11-13, "Docker in Action" 2nd Edition, Manning.</li>
           </ul>
         </div>
         <div class="collapse" id="lect14-videos">
           <strong>Videos:</strong>
           <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=QnYdbQO0yj4" target="_blank">Windows azure
-                storage</a>, SOSP'11
-              presentation.
+            <li><a href="https://www.youtube.com/watch?v=Qw9zlE3t8Ko" target="_blank">Docker Compose in 12
+              Minutes</a> (2017) Jake Wright.
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=bU2NNFJ-UXA" target="_blank">Docker Swarm Step by
+              Step</a>
+              (2013) by Raghav Pal.
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=ISUmszlMQPU" target="_blank">Introduction to
+              Kuberneters</a>
+              (2019).
+            </li>
+            <li><a href="https://www.youtube.com/watch?v=_vHTaIJm9uY" target="_blank">Getting Started with
+              Kubernetes</a> (2016) by Janakiram MSV.
             </li>
           </ul>
         </div>
       </td>
     </tr>
 
+
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 5: Cloud Programming Paradigms and Frameworks</th>
+    </tr>
+
     <!- LECTURE 15 ->
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 15: 27/10/2020</td>
-      <td style="width: 100%"><strong>Cloud Storage (ctd')</strong>
+      <td style="width: 100%"><strong>Cloud Storage</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect15-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
@@ -1436,12 +1447,56 @@
         <div class="collapse epl425-learnout" id="lect15-learn">
           <strong>Learning outcome:</strong>
           <ul>
-            <li>Explore and understand the challenges of building databases on Cloud storage services.</li>
+            <li>Understand and explain concepts and challenges related to storage in Cloud computing
+              systems.
+            </li>
+            <li>Understand, explain and apply the concepts of availability, consistency and replication in
+              storage systems.
+            </li>
+            <li>Review the challenges and capabilities of Cloud storage services.</li>
           </ul>
         </div>
         <div class="collapse" id="lect15-read">
-          <strong>Readings:</strong>
+          <strong>Readings - M. Motis presentation:</strong>
           <ul>
+            <li>Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003).
+              "The Google file system." Proceedings of the Nineteenth ACM Symposium on Operating Systems
+              Principles - SOSP ’03, 29. https://doi.org/10.1145/945445.945450
+            </li>
+          </ul>
+          <strong>Readings - Chr. Christodoulou presentation:</strong>
+          <ul>
+            <li>K. Shvachko, H. Kuang, S. Radia, and R. Chansler, “The Hadoop distributed file system,”
+              in 2010 IEEE 26th Symposium on Mass Storage Systems and Technologies, MSST2010, 2010.
+            </li>
+          </ul>
+          <strong>Readings - J. Georgiou presentation:</strong>
+          <ul>
+            <li>A. Lakshman and P. Malik, “Cassandra - A decentralized structured storage system,” in
+              Operating Systems
+              Review (ACM), 2010, vol. 44, no. 2, pp. 35–40.
+            </li>
+          </ul>
+          <strong>Readings - Ph. Pikrides presentation:</strong>
+          <ul>
+            <li>DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A.,
+              Sivasubramanian, S., Vosshall, P., & Vogels, W. (2007). "Dynamo: Amazon’s highly available
+              key-value store."
+              Operating Systems Review (ACM), 205–220. https://doi.org/10.1145/1294261.1294281
+            </li>
+          </ul>
+          <strong>Additional Readings:</strong>
+          <ul>
+            <li>Bresnahan, J., Keahey, K., LaBissoniere, D., & Freeman, T. (2011). "Cumulus: An open source
+              storage cloud for science." ScienceCloud’11 - Proceedings of the 2nd International Workshop
+              on Scientific Cloud Computing, 25–31. https://doi.org/10.1145/1996109.1996115
+            </li>
+            <li>Calder, B.et al. (2011).
+              "Windows azure storage: A highly available cloud storage service with strong consistency."
+              SOSP’11 -
+              Proceedings of the 23rd ACM Symposium on Operating Systems Principles, 143–157.
+              https://doi.org/10.1145/2043556.2043571
+            </li>
             <li>Cecchet, E., Candea, G., & Ailamaki, A. (2008).
               "Middleware-based database replication: The gaps between theory and practice." Proceedings
               of the ACM SIGMOD International Conference on Management of Data, 739–752.
@@ -1455,10 +1510,7 @@
               Proceedings of the 2013 ACM Cloud and Autonomic Computing Conference.
               https://doi.org/10.1145/2494621.2494634
             </li>
-            <li>A. Lakshman and P. Malik, “Cassandra - A decentralized structured storage system,” in
-              Operating Systems
-              Review (ACM), 2010, vol. 44, no. 2, pp. 35–40.
-            </li>
+
             <li>Han, J., Haihong, E., Le, G., & Du, J. (2011). "Survey on NoSQL database." Proceedings -
               2011 6th International Conference on Pervasive Computing and Applications, ICPCA 2011,
               363–366. https://doi.org/10.1109/ICPCA.2011.6106531
@@ -1473,14 +1525,15 @@
               Databases</a> (2018)
               Jonathan Ellis, DataStax. Strata Data Conference, O'Reilly.
             </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=QnYdbQO0yj4" target="_blank">Windows azure
+                storage</a>, SOSP'11 presentation.
+            </li>
           </ul>
         </div>
       </td>
     </tr>
 
-    <tr class="warning">
-      <th class="lead" colspan="2">Module 5: Programming Paradigms and Frameworks</th>
-    </tr>
 
     <!- LECTURE 16 ->
     <tr>
@@ -1513,13 +1566,16 @@
               in OSDI 2004 - 6th Symposium on Operating Systems Design and Implementation, 2004, pp.
               137–149.
             </li>
+          </ul>
+          <strong>Readings - G. Argyriou presentation:</strong>
+          <ul>
             <li>M. Zaharia et al., “Apache Spark: a unified engine for big data processing,” Commun. ACM,
               vol. 59, no.
               11, pp. 56–65, 2016.
             </li>
-            <li>K. Shvachko, H. Kuang, S. Radia, and R. Chansler, “The Hadoop distributed file system,”
-              in 2010 IEEE 26th Symposium on Mass Storage Systems and Technologies, MSST2010, 2010.
-            </li>
+          </ul>
+          <strong>Readings - A. Gelasis presentation:</strong>
+          <ul>
             <li>S. Tang, B. He, C. Yu, Y. Li, and K. Li, “A Survey on Spark Ecosystem for Big Data
               Processing,”
               arXiv:1811.08834, 2018.
@@ -1527,6 +1583,10 @@
           </ul>
           <strong>Other Readings</strong>
           <ul>
+            <li><a href="https://databricks.com/spark/getting-started-with-apache-spark" target="_blank">Apache
+              Spark
+              Tutorial</a>.
+            </li>
             <li>V. K. Vavilapalli et al., “Apache hadoop YARN: Yet another resource negotiator,” in
               Proceedings of the 4th Annual Symposium on Cloud Computing, SoCC 2013, 2013, vol. 13, pp.
               1–3.
@@ -1541,7 +1601,10 @@
         <div class="collapse" id="lect16-videos">
           <strong>Videos:</strong>
           <ul>
-            <li>
+            <li><a href="https://www.youtube.com/watch?v=p4PkA2huzVc" target="_blank">Introducing Apache
+              Spark 3.0</a>
+              (2020)
+              Matei Zaharia and Brooke Wenig. Spark + AI Summit 2020
             </li>
           </ul>
         </div>
@@ -1550,42 +1613,15 @@
 
     <tr>
       <td scope="row" style="white-space:nowrap">Precept 8: 3/11/2020</td>
-      <td><strong>Apache Spark</strong>
+      <td><strong>Semester Projects Interim Report</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#prec8-learn" data-toggle="collapse"
                 type="button">
-          <span class="fa fa-certificate"></span> Learning Outcome
-        </button>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#prec8-read" data-toggle="collapse"
-                type="button">
-          <span class="glyphicon glyphicon-book"></span> Readings
-        </button>
-        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec8-videos"
-                data-toggle="collapse"
-                type="button"> Videos
+          <span class="fa fa-certificate"></span> Topic
         </button>
         <div class="collapse epl425-learnout" id="prec8-learn">
-          <strong>Learning outcome:</strong>
+          <strong>Topic:</strong>
           <ul>
-            <li>Overview of the Apache Spark platform.</li>
-          </ul>
-        </div>
-        <div class="collapse" id="prec8-read">
-          <strong>Readings:</strong>
-          <ul>
-            <li><a href="https://databricks.com/spark/getting-started-with-apache-spark" target="_blank">Apache
-              Spark
-              Tutorial</a>.
-            </li>
-          </ul>
-        </div>
-        <div class="collapse" id="prec8-videos">
-          <strong>Videos:</strong>
-          <ul>
-            <li><a href="https://www.youtube.com/watch?v=p4PkA2huzVc" target="_blank">Introducing Apache
-              Spark 3.0</a>
-              (2020)
-              Matei Zaharia and Brooke Wenig. Spark + AI Summit 2020
-            </li>
+            <li>Present and Discuss the progress in semester projects.</li>
           </ul>
         </div>
       </td>
