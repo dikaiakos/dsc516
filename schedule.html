@@ -1992,48 +1992,79 @@
     </tr>
 
 
-    <!- LECTURE 20 ->
+    <!- LECTURE 22 ->
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 22: 20/11/2020</td>
       <td style="width: 100%"><strong>Serverless Computing</strong>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless-learn" data-toggle="collapse"
+        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless1-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Outcome
         </button>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless-read" data-toggle="collapse"
+        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless1-read" data-toggle="collapse"
                 type="button">
           <span class="glyphicon glyphicon-book"></span> Readings
         </button>
-        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#srvless-videos"
-                data-toggle="collapse"
-                type="button"> Videos
-        </button>
-        <div class="collapse epl425-learnout" id="srvless-learn">
+        <div class="collapse epl425-learnout" id="srvless1-learn">
           <strong>Learning outcome:</strong>
           <ul>
             <li>Explore and become familiar with the serverless Cloud computing paradigm.</li>
             <li>Understand and explain the main drivers and key concepts behind serverless computing and the
               Function-as-a-Service model.
             </li>
+            <li>Understand the key characteristics of FaaS and its differences from PaaS, SaaS and IaaS.</li>
+            <li>Understand the main limitations of current FaaS offerings.</li>
           </ul>
         </div>
-        <div class="collapse" id="srvless-read">
+        <div class="collapse" id="srvless1-read">
           <strong>Readings:</strong>
           <ul>
             <li>P. Castro, V. Ishakian, V. Muthusamy, and A. Slominski, “The rise of serverless computing,”
-              Commun. ACM,
-              vol. 62, no. 12, pp. 44–54, Nov. 2019.
+              Commun. ACM, vol. 62, no. 12, pp. 44–54, Nov. 2019.
             </li>
             <li>E. Jonas et al., “Cloud Programming Simplified: A Berkeley View on Serverless Computing,”
               Feb. 2019.
             </li>
-            <li>J. M. Hellerstein et al., “Serverless Computing: One Step Forward, Two Steps Back,” in
-              Conference on
-              Innovative Data Systems Research (CIDR), 2019.
+          </ul>
+        </div>
+        <div class="collapse" id="srvless1-videos">
+          <strong>Videos:</strong>
+
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 23 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 23: 24/11/2020</td>
+      <td style="width: 100%"><strong>Serverless Computing (ctd')</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless2-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless2-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#srvless2-videos"
+                data-toggle="collapse"
+                type="button"> Videos
+        </button>
+        <div class="collapse epl425-learnout" id="srvless2-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Explore and describe examples of structuring Cloud applications following the serverless paradigm.</li>
+            <li>Understand and describe limitations that current Cloud services pose to serverless applications.</li>
+            <li>Understand and explain the concepts of stateless vs. stateful functions; explain how stateful
+              applications
+              can be implemented on top of stateless functions.
             </li>
-            <li>I. E. Akkus et al., “SAND: Towards High-performance Serverless Computing,” in Proceedings of
-              the 2018
-              USENIX Conference on Usenix Annual Technical Conference, 2018, pp. 923–935.
+          </ul>
+        </div>
+        <div class="collapse" id="srvless2-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>E. Jonas et al., “Cloud Programming Simplified: A Berkeley View on Serverless Computing,”
+              Feb. 2019.
             </li>
           </ul>
           <strong>Readings - A. Proxenos presentation:</strong>
@@ -2048,19 +2079,31 @@
               2018 USENIX Annual Technical Conference, USENIX ATC 2018, 57–69,
               <a href="https://www.usenix.org/conference/atc18/presentation/oakes" target="_blank">https://www.usenix.org/conference/atc18/presentation/oakes</a>.
             </li>
+          </ul>
+          <strong>Readings - M. Motis presentation:</strong>
+          <ul>
+            <li>A. Agache et al., “Firecracker: Lightweight virtualization for serverless applications,”
+              in Proceedings of the 17th USENIX Symposium on Networked Systems Design and Implementation,
+              NSDI 2020, 2020, pp. 419–434.
+            </li>
+          </ul>
+          <strong>Optional Additional Readings:</strong>
+          <ul>
+            <li>J. M. Hellerstein et al., “Serverless Computing: One Step Forward, Two Steps Back,” in
+              Conference on Innovative Data Systems Research (CIDR), 2019.
+            </li>
+          </ul>
         </div>
-        <div class="collapse" id="srvless-videos">
+        <div class="collapse" id="srvless2-videos">
           <strong>Videos:</strong>
           <ul>
             <li><a href="https://www.usenix.org/conference/atc18/presentation/akkus" target="_blank">SAND:
-              Towards
-              High-Performance Serverless Computing</a> (2018).
+              Towards High-Performance Serverless Computing</a> (2018).
             </li>
           </ul>
         </div>
       </td>
     </tr>
-
 
     <tr>
       <td scope="row" style="white-space:nowrap">Precept 10: 24/11/2020</td>
@@ -2106,6 +2149,52 @@
       </td>
     </tr>
 
+    <!- LECTURE 24 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 24: 27/11/2020</td>
+      <td style="width: 100%"><strong>Serverless Computing Research</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless3-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Outcome
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#srvless3-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="srvless3-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Explore and describe technical characteristics of serverless platforms.</li>
+            <li>Explore, understand and describe techniques and results in comparing serverless to other
+              Cloud computing paradigms.
+            </li>
+          </ul>
+        </div>
+        <div class="collapse" id="srvless3-read">
+          <strong>Readings - M. Symeonidis presentation:</strong>
+          <ul>
+            <li>Wang, L., Li, M., Zhang, Y., Ristenpart, T., & Swift, M. (2018). Peeking Behind the
+              Curtains of Serverless Platforms. 2018 USENIX Annual Technical Conference (USENIX ATC 18), 133–146.
+              (<a
+                href="http://docs.aws.amazon.com/AWSEC2/latest/%0Ahttps://www.usenix.org/conference/atc18/presentation/wang-liang"
+                target="_blank">slides)</a>.
+            </li>
+            <li>Y. Gan et al. (2019). “An Open-Source Benchmark Suite for Microservices and Their Hardware-Software
+              Implications for Cloud & Edge Systems,” in Proceedings of the Twenty-Fourth International
+              Conference on Architectural Support for Programming Languages and Operating Systems - ASPLOS ’19,
+              2019, pp. 3–18.
+            </li>
+          </ul>
+          <strong>Readings - M. Motis presentation:</strong>
+          <ul>
+            <li>S. Fouladi et al. (2019). “From laptop to Lambda: Outsourcing everyday jobs to thousands of transient
+              functional containers,” in Proceedings of the 2019 USENIX Annual Technical Conference, USENIX ATC 2019,
+              pp. 475–488.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
     <tr class="warning">
       <th class="lead" colspan="2">Module 6: Fog and Edge Computing</th>
     </tr>
