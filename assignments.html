@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>CS699 - Special Topics in Computer Science - Readings in Cloud, Fog, Edge Computing: Resources</title>
+    <title>DSC516: Cloud Computing</title>
 
     <!-- Bootstrap CSS -->
     <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -69,19 +69,16 @@
     <div class="hidden-print">
         <div class="row" style="margin:5px; padding-top:5px; padding-bottom: 10px;">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 display-cell hidden-print  hidden-sm hidden-xs">
-                <a href="http://www.cs.ucy.ac.cy" target="_new" class="img-responsive"><img src="pics/LogoCSEn.gif"
-                                                                                            alt="CS UCY Logo"
-                                                                                            width="260" height="90">
+                <a href="http://www.cs.ucy.ac.cy" target="_new" class="img-responsive"><img src="pics/DSC-Logo.png"
+                                                                                            alt="DSC UCY Logo"
+                                                                                            width="270" height="80">
                 </a></div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  display-cell text-center">
-                <h3>CS699: Special Topics in Computer Science</h3>
-                <h4>Readings in Cloud, Fog, Edge Computing</h4>
+                <h3>DSC516: Cloud Computing</h3>
                 <h3>Assignments</h3>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12  display-cell hidden-print hidden-sm hidden-xs">
-                <div align="right"><a href="https://rais-itn.eu/"><img src="pics/LogoRAIS.svg" width="152"
-                                                                       height="67" alt="RAIS Logo"></a>
-                    <h4>Fall Semester 2020</h4></div>
+                <div align="right"><h4>Fall Semester 2020</h4></div>
             </div>
         </div>
 
@@ -93,7 +90,7 @@
                     <li><a href="resources.html">Resources</a></li>
                     <li class="active"><a href="assignments.html">Assignments</a></li>
                     <li><a href="contract.html">Contract</a></li>
-                    <li><a href="http://piazza.com/ucy.ac.cy/fall2020/epl699" target="_new">Online Forum</a></li>
+                    <li><a href="" target="_new">Online Forum</a></li>
                 </ul>
             </nav>
         </div>
@@ -116,185 +113,23 @@
                         <li><a href="resources.html">Resources</a></li>
                         <li><a href="assignments.html">Assignments</a></li>
                         <li><a href="contract.html">Contract</a></li>
-                        <li><a href="http://piazza.com/ucy.ac.cy/fall2020/epl699" target="_new">Online Forum</a></li>
+                        <li><a href="" target="_new">Online Forum</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
 
-    <h2 class="visible-print">CS699: Special Topics in Computer Science <br> Cloud, Fog, Edge Computing<br> Projects
+    <h2 class="visible-print">DSC516: Cloud Computing<br> Projects
     </h2>
 
     <h2>Assignments and Projects</h2>
 
 
-    <h3>Fogify Demonstrator projects</h3>
-
-    <h5>Readings:</h5>
-    <ul>
-        <li>M. Symeonidis, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos. <a href="docs/2020-SEC-Fogify.pdf"
-                                                                                    target="_blank">Fogify:
-            A Fog Computing Emulation Framework.</a> 5th ACM/IEEE Symposium on Edge Computing (to appear)
-        </li>
-        <li>M. Symeonidis, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos. <a href="docs/2020-SEC-Fogify-Demo.pdf"
-                                                                                    target="_blank">Demo:
-            Emulating Geo-Distributed Fog Services.</a> 5th ACM/IEEE Symposium on Edge Computing (to appear)
-        </li>
-        <li>J. Nickoloff and S. Kuenzli (2019), "Docker in Action." 2nd Edition, Manning.</li>
-    </ul>
-
-    <h4>Price Modeling in Regional Deployments</h4>
-    Public Cloud providers, like Amazon, Google, and Azure, offer virtual instances based on complex pricing
-    policies that take into account the processing power of the VMs, the region that they exist, and the volume
-    of data transferring from DCs to end-users or/and among regional DCs. The outcome of this project is a new
-    module for Fogify that will provide to the users the running and projection costs of their running deployment
-    based on real-time price information from public cloud providers. The main tasks of this project are:
-    <ol>
-        <li>Develop an interface which allows the user to choose resources from a list of VM types and regions (e.g.,
-            from Amazon). The resource characteristics should be automatically mapped into Fogify resources.
-        </li>
-        <li>
-            During the execution of an application on top of Fogify, the new module will calculate the current
-            application
-            operational cost and a projection of the long-term cost based on the resources usage and network data
-            transfers.
-        </li>
-    </ol>
-    <h6>Resources:</h6>
-    <ul>
-        <li>Table of the delays between Amazon's DCs
-            https://www.cloudping.co/grid/latency/timeframe/1Y
-        </li>
-        <li>Pricing modeling of Amazon's VMs prices and cost of data transfer
-            <ul>
-                <li>
-                    <a href="https://a0.p.awsstatic.com/pricing/1.0/ec2/region/us-east-1/ondemand/linux-web/index.json?timestamp=1601187310927"
-                       target="_blank">https://a0.p.awsstatic.com/pricing/1.0/ec2/region/us-east-1/ondemand/linux-web/index.json?timestamp=1601187310927</a>
-                </li>
-                <li>
-                    <a href="https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/datatransfer/USD/current/datatransfer.json?timestamp=1601278184662"
-                       target="_blank">https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/datatransfer/USD/current/datatransfer.json?timestamp=1601278184662</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-
-    <h4>Extend Fogify to include real-world devices</h4>
-    Fogify emulates fog nodes as virtual instances (containers) with restricted processing capabilities. However,
-    there are components with specific capabilities, such as TPUs or GPUs, which are currently ignored even if
-    they exist in the underlying infrastructure. To address this issue, the students should extent the Fogify with:
-    <ul>
-        <li>an automated method for extracting the physical node capabilities-properties and injecting them to Fogify.
-            Specifically, students should use a library for system identification, like psutil
-            (https://pypi.org/project/psutil/),
-            that will return the underlying capabilities and introduce specific "labels" to the underlying
-            Fogify cluster (https://docs.docker.com/engine/swarm/manage-nodes/#add-or-remove-label-metadata)
-        </li>
-        <li>modeling primitives capable to describe specific real devices/nodes</li>
-    </ul>
-
-    <h4>Auto-scaling Controller</h4>
-    Modern Cloud and Fog Infrastructures provide auto-scaling capabilities. Specifically, auto-scaling monitors a
-    deployed application and automatically adjusts its capacity to maintain steady, predictable performance.
-    Towards the later functionality, students will build an auto-scaler controller for Fogify deployments that
-    will be able to perform scale-in and scale-out actions based on simple rules (e.g., if the last 10 minutes
-    CPU utilization of instance-x is over 70%, perform horizontal scale-out). Specifically, the implementation
-    of the module includes:
-    <ul>
-        <li>Simple modeling of the scaling rules</li>
-        <li>The extraction and analysis of deployment's metrics through FogifySDK</li>
-        <li>Perform scaling actions through FogifySDK</li>
-    </ul>
-
-    <h4>Improvement of Network Monitoring</h4>
-    The network traffic is a crucial metric for Fog and Cloud infrastructures. Even though Fogify
-    captures a general network traffic per node, it does not measure the network traffic node-to-node volume.
-    In this exercise, students will implement a method to extract and save the size of packages that
-    transfer by source-node to destination-node. Specifically:
-    <ul>
-        <li>The students will apply a sniffing method, by utilizing a sniffing library in Python, on the container's
-            network interfaces.
-        </li>
-        <li>Furthermore, the method should efficiently store the extracted data into the monitoring sub-system.</li>
-        <li>Finally, they will implement an API call for stored data extraction.</li>
-    </ul>
-
-    <h3>IoT Demonstrator projects</h3>
-    <h4>IoT for Covid Risk Assessment</h4>
-    <ul>
-        <li>Glover D. <a
-                href="https://dev.to/azure/build-an-air-pollution-monitor-with-a-raspberry-pi-a-particulate-matter-sensor-and-iot-central-7kd"
-                target="_blank">Building an Air Pollution Monitor with a
-            Raspberry Pi, a Particulate Matter sensor and IoT Central</a> (2020).
-        </li>
-        <li>Miller Sh., <a
-                href="https://www.fastcompany.com/90538531/this-is-the-safest-indoor-space-to-prevent-the-spread-of-covid-19-according-to-a-mechanical-engineer"
-                target="_blank">This is the safest indoor space to prevent
-            the spread of COVID-19, according to a mechanical engineer</a> (2020) FastCompany.
-        </li>
-        <li>Allen J. et al, <a
-                href="https://schools.forhealth.org/wp-content/uploads/sites/19/2020/08/Harvard-Healthy-Buildings-program-How-to-assess-classroom-ventilation-08-28-2020.pdf"
-                target="_blank">5-step guide to checking ventilation
-            rates in classrooms</a> (2020) Harvard Healthy Buildings program.
-        </li>
-        <li><a href="https://www2.purpleair.com/collections/air-quality-sensors" target="_blank">PurpleAir</a>
-            air quality sensors.
-        </li>
-    </ul>
-
-    <h4>Blockchain-based, Privacy-preserving Cloud-based Contact Tracing App for Covid</h4>
-    <ul>
-        <li><a
-                href="https://www.ecdc.europa.eu/sites/default/files/documents/covid-19-mobile-applications-contact-tracing.pdf"
-                target="_blank">Mobile applications in support ofcontact tracing for COVID-19. A
-            guidance for EU/EEA Member States</a> (10/6/2020) European Commission.
-        </li>
-        <li><a href="https://www.coe.int/en/web/data-protection/contact-tracing-apps" target="_blank">Contact Tracing
-            Apps</a> (2020) Council of Europe.
-        </li>
-        <li><a href="https://www.technologyreview.com/2020/06/16/1002982/contact-tracing-without-big-brother/"
-               target="_blank">Contact tracing without Big
-            Brother</a> (16/6/2020) Kylie Foy and Alexandra Kahn. MIT Technology Review
-        </li>
-        <li><a href="https://www.technologyreview.com/2020/05/07/1000961/launching-mittr-covid-tracing-tracker/"
-               target="_blank">A flood of coronavirus apps are tracking us.
-            Now it’s time to keep track of them.</a> (7/5/2020) Patrick Howell O'Neill, Tate Ryan-Mosley and Bobbie
-            Johnson.
-            MIT Technology Review
-        </li>
-    </ul>
-
-    <h3>Data Center Modeling</h3>
-    <h4>TCO Modeling of the CS Data Center</h4>
-    <article>Develop a TCO model for the data center of the Department, taking into account the use of the installed
-        solar energy production using the roof's P/V system.
-    </article>
-    <ul>
-        <li>D. Hardy, M. Kleanthous, I. Sideris, A. G. Saidi, E. Ozer, and Y. Sazeides, “An analytical
-            framework for estimating TCO and exploring data center design space,” in ISPASS 2013 - IEEE
-            International Symposium on Performance Analysis of Systems and Software, 2013, pp. 54–63.
-        </li>
-        <li>Barroso, L. A., & Holzle, U. (2015). The data center as a Computer. An Introduction to
-            the Design of Warehouse-Scale Machines. In Synthesis Lectures on Computer Architecture (Vol. 2, Issue 1).
-            Morgan & Claypool Publishers. Chapter 6.
-        </li>
-        <li><a href="https://enedi.eu/"
-               target="_blank">ENEDI project</a>: Energy Efficiency in Public Data Centers.
-        </li>
-        <li>Athanasios Tryfonos, Andreas Andreou, Nicholas Loulloudes, George Pallis,
-            Marios D. Dikaiakos and Nikolas Chaztigeorgiou, George E. Georghiou,
-            <a href="http://grid.ucy.ac.cy/assets/files/publications/pdfs/GCIoT18.pdf" target="_blank">ENEDI: Energy
-                Saving in Datacenters</a>,
-            Global Conference on Internet of Things" (2018 IEEE GCIoT), Alexandria, Egypt 2018
-        </li>
-    </ul>
-
-
     <footer class="hidden-print">
         <hr/>
         <p class="text-center">[<a href="index.html">Homepage</a>]</p>
-        <small>Marios Dikaiakos, &copy;2020</small>
+        <small>Marios Dikaiakos, &copy;2022</small>
     </footer>
 </div>
 </body>
