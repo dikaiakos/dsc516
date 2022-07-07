@@ -8,6 +8,7 @@
     <title>DCS516 - Cloud Computing</title>
 
     <!-- Bootstrap CSS -->
+
     <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
           rel="stylesheet">
@@ -16,11 +17,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="pics/foundation-icons/foundation-icons.css" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -38,6 +40,9 @@
         $(".collapse").collapse('hide');
       });*/
     });
+
+
+
 
     </script>
 
@@ -62,6 +67,9 @@
     .btn-success:hover {
       background-color: #449d44;
     }
+
+
+
 
     </style>
 
@@ -117,7 +125,8 @@
                         <li><a href="resources.html">Resources</a></li>
                         <li><a href="assignments.html">Assignments</a></li>
                         <li><a href="contract.html">Contract</a></li>
-                        <li><a href="https://moodle.cs.ucy.ac.cy/course/view.php?id=352" target="_new">Online Forum</a></li>
+                        <li><a href="https://moodle.cs.ucy.ac.cy/course/view.php?id=352" target="_new">Online Forum</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -125,17 +134,16 @@
     </div>
 
 
-    <h3 class="visible-print">DSC516: Cloud Computing<br> Course
-        Outline
+    <h3 class="visible-print">DSC516: Cloud Computing<br>
+        Course Outline
     </h3>
 
-    <h3>Course Schedule and Learning Objectivess
+    <h3>Course Schedule and Learning Objectives
         <a class="btn btn-success small" target="_blank">&raquo;</a>
     </h3>
     <table class="table table-responsive table-condensed table-hover"
            style="border-top:solid;border-bottom:solid 1px grey">
         <thead>
-
         </thead>
         <tbody>
         <tr class="warning">
@@ -145,7 +153,7 @@
             <th colspan="2">Module 1: Distributed Computing Concepts and Models</th>
         </tr>
 
-        <!- LECTURE 1 ->
+        <!- LECTURE 1 -->
         <tr>
             <td scope="row" style="white-space:nowrap">Lecture 1:</td>
             <td style="width: 100%"><strong>From Mainframes to the Cloud</strong>
@@ -274,7 +282,6 @@
         </tr>
 
 
-
         <tr class="epl425-learnout">
             <th colspan="2">Module 2: Cloud Computing Definitions and Models</th>
         </tr>
@@ -345,7 +352,6 @@
         </tr>
 
 
-
         <!- LECTURE 4 ->
         <tr>
             <td scope="row" style="white-space:nowrap">Lecture 4:</td>
@@ -406,8 +412,8 @@
                             Commun. ACM, vol. 62, no. 2, pp. 48–60, 2019.
                         </li>
                         <li>Limoncelli, T. A. (2012). "OpenFlow: A radical new idea in networking: An open standard that
-                            enables
-                            software-defined networking." Queue, 10(6), 40. https://doi.org/10.1145/2246036.2305856
+                            enables software-defined networking." Queue, 10(6), 40.
+                            https://doi.org/10.1145/2246036.2305856
                         </li>
                         <li>A. Gupta and R. K. Jha, “A Survey of 5G Network: Architecture and Emerging Technologies,”
                             IEEE Access, vol. 3. Institute of Electrical and Electronics Engineers Inc., pp. 1206–1232,
@@ -434,7 +440,6 @@
                 </div>
             </td>
         </tr>
-
 
 
         <tr class="warning">
@@ -483,6 +488,7 @@
                         <li>Understand, and explain the cost structure of running a modern data center, and the concept
                             of TCO (total cost of ownership).
                         </li>
+
                     </ul>
                 </div>
                 <div class="collapse" id="lect5-read">
@@ -527,7 +533,7 @@
         <!- LECTURE 6 ->
         <tr>
             <td scope="row" style="white-space:nowrap">Lecture 6:</td>
-            <td style="width: 100%"><strong>WSC Workloads and Software Infrastructure</strong>
+            <td style="width: 100%"><strong>WSC Software Infrastructure and Workloads</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#lect6-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
@@ -556,6 +562,10 @@
                             isolation.
                         </li>
                         <li>Understand and explain the concept of "Cloud native" software.</li>
+                        <li>Understand and explain the concepts of availability, replication and partitioning.</li>
+                        <li>Understand, analyze and apply the concepts of MTBF, MTTR, Yield and Harvest.</li>
+                        <li>Understand and analyze the CAP theorem.</li>
+                        <li>Understand and explain the implications of CAP for Cloud system and application design.</li>
                     </ul>
                 </div>
                 <div class="collapse" id="lect6-read">
@@ -569,6 +579,9 @@
                             Morgan & Claypool
                             Publishers. Chapters 4-5.
                         </li>
+                        <li>A. Fox and E. A. Brewer, “Harvest, yield, and scalable tolerant systems,” Proc. Work. Hot
+                            Top. Oper. Syst. - HOTOS, pp. 174–178, 1999.
+                        </li>
                     </ul>
                     <strong>Additional Readings:</strong>
                     <ul>
@@ -578,55 +591,6 @@
                         <li>L. Barroso, M. Marty, D. Patterson, and P. Ranganathan, “Attack of the killer microseconds,”
                             Commun. ACM, vol. 60, no. 4, pp. 48–54, Apr. 2017.
                         </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="lect6-videos">
-                    <strong>Videos:</strong>
-                    <ul>
-                        <li><a href="https://youtu.be/XEsR5kPHWeU" target="_blank">Attack of the Killer Microseconds</a>
-                            (2017), A discussion with L. Barroso.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
-
-
-        <!- LECTURE 7 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 7:</td>
-            <td><strong>CAP Theorem</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect7learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect7read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect7videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="lect7learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Understand and explain the concepts of availability, replication and partitioning.</li>
-                        <li>Understand, analyze and apply the concepts of MTBF, MTTR, Yield and Harvest.</li>
-                        <li>Understand and analyze the CAP theorem.</li>
-                        <li>Understand and explain the implications of CAP for Cloud system and application design.</li>
-                    </ul>
-                </div>
-                <div class="collapse" id="lect7read">
-                    <strong>Readings:</strong>
-                    <ul>
-                        <li>A. Fox and E. A. Brewer, “Harvest, yield, and scalable tolerant systems,” Proc. Work. Hot
-                            Top. Oper. Syst. - HOTOS, pp. 174–178, 1999.
-                        </li>
-                    </ul>
-                    <strong>Additional Readings:</strong>
-                    <ul>
                         <li>Neocleous, K., Dikaiakos, M. D., Fragopoulou, P., & Markatos, E. P. (2007).
                             Failure management in Grids: The case of the EGEE infrastructure. Parallel Processing
                             Letters, 17(4),
@@ -643,9 +607,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="collapse" id="lect7videos">
+                <div class="collapse" id="lect6-videos">
                     <strong>Videos:</strong>
                     <ul>
+                        <li><a href="https://youtu.be/XEsR5kPHWeU" target="_blank">Attack of the Killer Microseconds</a>
+                            (2017), A discussion with L. Barroso.
+                        </li>
                         <li><a href="https://youtu.be/K12oQCzjPxE" target="_blank">CAP Theorem</a> (2018), Blockchain at
                             Berkeley.
                         </li>
@@ -659,29 +626,28 @@
         </tr>
 
 
-
         <tr class="epl425-learnout">
             <th colspan="2">Module 4: Virtualization, Containers and Resource Management</th>
         </tr>
 
 
-        <!- LECTURE 8 ->
+        <!- LECTURE 7 ->
         <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 8: </td>
+            <td scope="row" style="white-space:nowrap">Lecture 7:</td>
             <td style="width: 100%"><strong>Virtualization</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect11-learn" data-toggle="collapse"
+                <button class="btn btn-default btn-xs hidden-print" data-target="#lect7-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
                 </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect11-read" data-toggle="collapse"
+                <button class="btn btn-default btn-xs hidden-print" data-target="#lect7-read" data-toggle="collapse"
                         type="button">
                     <span class="glyphicon glyphicon-book"></span> Readings
                 </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect11-videos"
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect7-videos"
                         data-toggle="collapse"
                         type="button"> Videos
                 </button>
-                <div class="collapse epl425-learnout" id="lect11-learn">
+                <div class="collapse epl425-learnout" id="lect7-learn">
                     <strong>Learning Objectives:</strong>
                     <ul>
                         <li>Review basic Operating Systems' concepts of relevance to virtualization: core abstractions,
@@ -698,7 +664,7 @@
                         <li>Become familiar with the VMWare virtualization platforms.</li>
                     </ul>
                 </div>
-                <div class="collapse" id="lect11-read">
+                <div class="collapse" id="lect7-read">
                     <strong>Readings: Overview, Introductory Concepts, History</strong>
                     <ul>
                         <li>RedHat (2020) "<a
@@ -706,8 +672,7 @@
                                 target="_blank">What is Virtualization?</a>".
                         </li>
                         <li>Vogels, W. (2008). "<a href="https://doi.org/10.1145/1348583.1348590" target="_blank">Beyond
-                            server
-                            consolidation.</a>" In Queue (Vol. 6, Issue 1, pp. 20–26).
+                            server consolidation.</a>" In Queue (Vol. 6, Issue 1, pp. 20–26).
                         </li>
                         <li>E. Kotsovinos, “Virtualization: Blessing or Curse?,” Commun. ACM, vol. 54, no. 1, p. 61,
                             Jan. 2011.
@@ -716,15 +681,14 @@
                     <strong>Readings: Virtualization Techniques</strong>
                     <ul>
                         <li>VMware, “Understanding Full Virtualization, ParaVirtualization, and Hardware Assist,” VMWare
-                            White
-                            Paper, 2007.
+                            White Paper, 2007.
                         </li>
                         <li>M. Pearce, S. Zeadally, and R. Hunt, “Virtualization: Issues,
                             Security Threats, and Solutions,” ACM Comput. Surv., vol. 45, no. 2, pp. 1–39, 2013.
                         </li>
                         <li>K. Adams and O. Agesen, “A comparison of software and hardware techniques for x86
-                            virtualization,”
-                            in International Conference on Architectural Support for Programming Languages and Operating
+                            virtualization,” in International Conference on Architectural Support for Programming
+                            Languages and Operating
                             Systems - ASPLOS, 2006, pp. 2–13.
                         </li>
                         <li>RedHat, <a href="https://www.redhat.com/en/topics/virtualization/what-is-virtualization"
@@ -740,7 +704,7 @@
                             VMWare.</a></li>
                     </ul>
                 </div>
-                <div class="collapse" id="lect11-videos">
+                <div class="collapse" id="lect7-videos">
                     <strong>Videos:</strong>
                     <ul>
                         <li><a href="https://www.youtube.com/watch?v=kuXVJH9lDQo" target="_blank">Virtualization Basics
@@ -756,204 +720,24 @@
             </td>
         </tr>
 
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture: </td>
-            <td><strong>VM Management Frameworks</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#virtual2-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#virtual2-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <div class="collapse epl425-learnout" id="virtual2-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Examine, understand and assess techniques for using and managing virtual machines in IaaS
-                            clouds.
-                        </li>
-                        <li>Understand and describe the problem of VM allocation to physical machines.</li>
-                        <li>Understand and discuss the role and functionality of Cloud Application Management
-                            Frameworks.
-                        </li>
-                        <li>Explore and explain the TOSCA standard and its usefulness.</li>
-                        <li>Study, explore, and explain the architecture, functionality and benefits of CAMF and
-                            CELAR.
-                        </li>
-                        <li>Understand and explain the support of elasticity actions by Cloud Application Management
-                            Frameworks.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="virtual2-read">
-                    <strong>Readings:<br>
-                        Z. Georgiou presentation:</strong>
-                    <ul>
-                        <li>Z. A. Mann and Z. Adam, “Allocation of Virtual Machines in Cloud Data Centers—A Survey of
-                            Problem Models and Optimization Algorithms,” ACM Comput. Surv., vol. 48, no. 1, pp. 1–34,
-                            Aug. 2015.
-                        </li>
-                        <li>I. Pietri and R. Sakellariou, “Mapping Virtual Machines onto Physical Machines in Cloud
-                            Computing,” ACM Comput. Surv., vol. 49, no. 3, pp. 1–30, 2016.
-                        </li>
-                        <li>Loulloudes, N., Sofokleous, C., Trihinas, D., Dikaiakos, M. D., & Pallis, G. (2015).
-                            Enabling
-                            Interoperable
-                            Cloud Application Management through an Open Source Ecosystem. IEEE Internet Computing,
-                            19(3), 54–59.
-                            <a href="https://doi.org/10.1109/MIC.2015.60" target="_blank">https://doi.org/10.1109/MIC.2015.60</a>.
-                        </li>
-                        <li>Sofokleous, C., Loulloudes, N., Trihinas, D., Pallis, G., & Dikaiakos, M. D. (2014).
-                            C-Eclipse:
-                            An open-source management framework for cloud applications. Lecture Notes in Computer
-                            Science
-                            (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
-                            Bioinformatics),
-                            8632 LNCS, 38–49. <a href="https://doi.org/10.1007/978-3-319-09873-9_4" target="_blank">https://doi.org/10.1007/978-3-319-09873-9_4</a>.
-                        </li>
-                        <li>Binz, T., Breitenbücher, U., Kopp, O., & Leymann, F. (2014). TOSCA: Portable automated
-                            deployment
-                            and management of cloud applications. Advanced Web Services, 9781461475, 527–549.
-                            <a href="https://doi.org/10.1007/978-1-4614-7535-4_22" target="_blank">https://doi.org/10.1007/978-1-4614-7535-4_22</a>
-                        </li>
-                        <li>Bellendorf, J., & Mann, Z. Á. (2020). Specification of cloud topologies and orchestration
-                            using
-                            TOSCA: a survey. Computing, 102(8), 1793–1815.
-                            <a href="https://doi.org/10.1007/s00607-019-00750-3" target="_blank">https://doi.org/10.1007/s00607-019-00750-3</a>.
-                        </li>
-                        <li>Soldani, J., Binz, T., Breitenbücher, U., Leymann, F., & Brogi, A. (2016). ToscaMart: A
-                            method for
-                            adapting and reusing cloud applications. Journal of Systems and Software, 113, 395–406.
-                            <a href="https://doi.org/10.1016/j.jss.2015.12.025" target="_blank">https://doi.org/10.1016/j.jss.2015.12.025</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="camf-videos">
-                    <strong>Videos:</strong>
-                    <ul>
-                        <li><a href="https://youtu.be/-1KB-o-dsJQ" target="_blank">CELAR Architecture: Automatic,
-                            Multi-Grained
-                            elasticity-provisioning
-                            for the Cloud</a>.
-                        </li>
-                        <li><a href="https://youtu.be/hGU-1u51c-o" target="_blank">Managing Cloud applications using
-                            CAMF</a>.
-                        </li>
-                        <li><a href="https://youtu.be/vr2nFY_XzNA" target="_blank">c-Eclipse: A Cloud Application
-                            Management
-                            Framework for Eclipse</a>.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
 
-        <!- LECTURE 15 ->
+        <!- LECTURE 8 ->
         <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 15: 27/10/2020</td>
-            <td style="width: 100%"><strong>Container Management Frameworks</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#containerMgt-learn"
-                        data-toggle="collapse"
+            <td scope="row" style="white-space:nowrap">Lecture 8:</td>
+            <td style="width: 100%"><strong>Introduction to Containers</strong>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
                 </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#containerMgt-read"
-                        data-toggle="collapse"
+                <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-read" data-toggle="collapse"
                         type="button">
                     <span class="glyphicon glyphicon-book"></span> Readings
                 </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#containerMgt-videos"
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect8-videos"
                         data-toggle="collapse"
                         type="button"> Videos
                 </button>
-                <div class="collapse epl425-learnout" id="containerMgt-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Review and explain the key requirements and properties of Container Management Systems.</li>
-                        <li>Become familiar and explain the main properties, techniques and characteristics of Cloud
-                            resource
-                            management systems, like Mesos and Borg.
-                        </li>
-                        <li>Become familiar and describe the core functionalities of Docker Compose and Docker Swarm.
-                        </li>
-                        <li>Become familiar and describe the Kubernetes technology.</li>
-                    </ul>
-                </div>
-                <div class="collapse" id="containerMgt-read">
-                    <strong>Readings:</strong>
-                    <ul>
-                        <li>B. Burns, B. Grant, D. Oppenheimer, E. Brewer, and J. Wilkes,
-                            “Borg, Omega, and Kubernetes - Lessons Learned from Three Container-Management Systems over
-                            a Decade,” ACM Queue, vol. 14, no. February, pp. 70–93, 2016.
-                        </li>
-                        <li>B . Hindman et al., “Mesos: A platform for fine-grained
-                            resource sharing in the data center,”
-                            in Proceedings of NSDI 2011: 8th USENIX Symposium on Networked Systems Design and
-                            Implementation, 2011,
-                            pp. 295–308.
-                        </li>
-                        <li>A. Verma, L. Pedrosa, M. R. Korupolu, D. Oppenheimer, E. Tune,
-                            and J. Wilkes,
-                            “Large-scale cluster management at Google with Borg,” in Proceedings of the European
-                            Conference on Computer Systems (EuroSys), 2015.
-                        </li>
-                    </ul>
-                    <strong>Additional Readings</strong>
-                    <ul>
-                        <li>Marko Lukša, "Kubernetes in Action," Manning, 2018.</li>
-                        <li><a href="https://engineering.fb.com/developer-tools/zookeeper-twine/" target="_blank">Containerizing
-                            ZooKeeper with Twine: Powering container orchestration from within</a> (2020) Christopher
-                            Bunn, Facebook.
-                        </li>
-                        <li>J. Nickoloff and S. Kuenzli (2019), Ch. 11-13, "Docker in Action" 2nd Edition, Manning.</li>
-                        <li>R. Peinl, F. Holzschuher, and F. Pfitzer, “Docker Cluster Management for the Cloud -
-                            Survey Results and Own Solution,” J. Grid Comput., vol. 14, no. 2, pp. 265–282, 2016.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="containerMgt-videos">
-                    <strong>Videos:</strong>
-                    <ul>
-                        <li><a href="https://www.youtube.com/watch?v=Qw9zlE3t8Ko" target="_blank">Docker Compose in 12
-                            Minutes</a> (2017) Jake Wright.
-                        </li>
-                        <li><a href="https://www.youtube.com/watch?v=bU2NNFJ-UXA" target="_blank">Docker Swarm Step by
-                            Step</a>
-                            (2013) by Raghav Pal.
-                        </li>
-                        <li><a href="https://www.youtube.com/watch?v=ISUmszlMQPU" target="_blank">Introduction to
-                            Kuberneters</a>
-                            (2019).
-                        </li>
-                        <li><a href="https://youtu.be/SFjqxCpfD-M" target="_blank">Inside the Kube: A Guided Tour of
-                            Kubernetes Cluster Setup</a> (2019) by Liz Frost, VMware. SREcon19 Americas, Usenix.
-                        </li>
-                        <li><a href="https://www.youtube.com/watch?v=_vHTaIJm9uY" target="_blank">Getting Started with
-                            Kubernetes</a> (2016) by Janakiram MSV.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
-        <!- LECTURE 12 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 12: </td>
-            <td style="width: 100%"><strong>Containers</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect12-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect12-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect12-videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="lect12-learn">
+                <div class="collapse epl425-learnout" id="lect8-learn">
                     <strong>Learning Objectives:</strong>
                     <ul>
                         <li>Examine, understand and assess the concept of containers.</li>
@@ -964,21 +748,21 @@
                         <li>Understand and explain the key differences and comparison between containers and VMs.</li>
                     </ul>
                 </div>
-                <div class="collapse" id="lect12-read">
+                <div class="collapse" id="lect8-read">
                     <strong>Readings:</strong>
                     <ul>
                         <li>J. Nickoloff and S. Kuenzli (2019), Ch. 2-8, "Docker in Action" 2nd Edition, Manning.</li>
                         <li><a href="https://drive.google.com/file/d/1jklwq0PVCwq90jBXrqes6pMWls9_Gjb5/view"
                                target="_blank">The Docker Book</a> (2017) James Turnbull.
                         </li>
-                        <li><a
-                                href="https://www.infoworld.com/article/3204171/what-is-docker-the-spark-for-the-container-revolution.html"
-                                target="_blank">What is Docker? The spark for the
-                            container revolution</a> (2019) by Serdar Yegulalp, InfoWorld.
+                        <li>
+                            <a href="https://www.infoworld.com/article/3204171/what-is-docker-the-spark-for-the-container-revolution.html"
+                               target="_blank">What is Docker? The spark for the
+                                container revolution</a> (2019) by Serdar Yegulalp, InfoWorld.
                         </li>
-                        <li><a
-                                href="https://hackernoon.com/the-state-of-containers-in-2020-5k1h3ye0?utm_source=facebook.com&utm_medium=social&utm_campaign=containerization-has-come-a-long-way-and&utm_content=37675101"
-                                target="_blank">The State of Containers, 2020</a> by Pavan Belagatti.
+                        <li>
+                            <a href="https://hackernoon.com/the-state-of-containers-in-2020-5k1h3ye0?utm_source=facebook.com&utm_medium=social&utm_campaign=containerization-has-come-a-long-way-and&utm_content=37675101"
+                               target="_blank">The State of Containers, 2020</a> by Pavan Belagatti.
                         </li>
                     </ul>
                     <strong>Additional Readings</strong>
@@ -994,14 +778,14 @@
                                target="_blank">The Evolution of
                                 Container Usage at Netflix</a> (2017) Netflix.
                         </li>
-                        <li><a
-                                href="https://netflixtechblog.com/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436"
-                                target="_blank">Titus, the
-                            Netflix container management platform, is now open source</a> (2018) Netflix.
+                        <li>
+                            <a href="https://netflixtechblog.com/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436"
+                               target="_blank">Titus, the Netflix container management platform, is now open source</a>
+                            (2018) Netflix.
                         </li>
                     </ul>
                 </div>
-                <div class="collapse" id="lect12-videos">
+                <div class="collapse" id="lect8-videos">
                     <strong>Videos:</strong>
                     <ul>
                         <li><a href="https://www.youtube.com/watch?v=YFl2mCHdv24" target="_blank">Learn Docker in 12
@@ -1021,100 +805,50 @@
             </td>
         </tr>
 
-
-        <!- LECTURE 13 ->
+        <!- LECTURE 9 ->
         <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 13: 20/10/2020</td>
-            <td style="width: 100%"><strong>VMs and Containers: Performance Evaluation</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect13-learn" data-toggle="collapse"
+            <td scope="row" style="white-space:nowrap">Lecture 9:</td>
+            <td style="width: 100%"><strong>Multi-container and multi-host environments</strong>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#lect9-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
                 </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect13-read" data-toggle="collapse"
+                <button class="btn btn-default btn-xs hidden-print" data-target="#lect9-read" data-toggle="collapse"
                         type="button">
                     <span class="glyphicon glyphicon-book"></span> Readings
                 </button>
-                <div class="collapse epl425-learnout" id="lect13-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Explore, understand and explain how we evaluate the performance of Virtual Machines and
-                            Containers.
-                        </li>
-                        <li>Explore, understand and explain the relative performance properties of Virtual Machines and
-                            Containers.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="lect13-read">
-                    <strong>Readings - G. Argyriou presentation:</strong>
-                    <ul>
-                        <li>P. Sharma, L. Chaufournier, P. Shenoy, and Y. C. Tay, “Containers and virtual machines at
-                            scale: A comparative study,” in Proceedings of the 17th International Middleware Conference,
-                            Middleware
-                            2016, pp. 1–13.
-                        </li>
-                        <li>Manco, F., Mendes, J., Yasukata, K., Lupu, C., Kuenzer, S., Raiciu, C., Schmidt, F., Sati,
-                            S., & Huici, F. (2017).
-                            My VM is Lighter (and Safer) than your Container. SOSP 2017 - Proceedings of the 26th ACM
-                            Symposium on Operating
-                            Systems Principles, 16, 218–233. <a href="https://doi.org/10.1145/3132747.3132763"
-                                                                target="_blank">https://doi.org/10.1145/3132747.3132763</a>
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
-<!--
-
-        <!- LECTURE 14 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 14: 23/10/2020</td>
-            <td style="width: 100%"><strong>Fogify: Emulating Fog Infrastructures with Containers</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect14-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect14-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect14-videos"
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect9-videos"
                         data-toggle="collapse"
                         type="button"> Videos
                 </button>
-                <div class="collapse epl425-learnout" id="lect14-learn">
+                <div class="collapse epl425-learnout" id="lect9-learn">
                     <strong>Learning Objectives:</strong>
                     <ul>
-                        <li>Become familiar and explain the main properties, techniques and characteristics of Fogify.
+                        <li>Understand, explain, and apply Dockerfile specification for building container images.</li>
+                        <li>Understand, explain, and apply Docker Compose and Docker Swarm.</li>
+                        <li>Become familiar and describe the core functionalities of Docker Compose and Docker Swarm.
                         </li>
-                        <li>Become familiar and describe the functionality of Docker Compose and Docker Swarm.</li>
                     </ul>
                 </div>
-                <div class="collapse" id="lect14-read">
-                    <strong>Readings - M. Symeonidis presentation:</strong>
+                <div class="collapse" id="lect9-read">
+                    <strong>Readings:</strong>
                     <ul>
-                        <li>M. Symeonidis, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos,
-                            <a href="http://grid.ucy.ac.cy/assets/files/publications/pdfs/fogify_moysis_symeonides_2020.pdf"
-                               target="_blank">"Fogify: A Fog
-                                Computing Emulation Framework."</a>
-                            Proceedings of the 5th ACM/IEEE Symposium on Edge Computing (SEC ’20),
-                            San Jose, CA, USA Association for Computing Machinery, New York, NY, USA, 2020
+                        <li>J. Nickoloff and S. Kuenzli (2019), Ch. 8, 11, 12 "Docker in Action" 2nd Edition, Manning.
                         </li>
-                        <li>M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos,
-                            <a href="http://grid.ucy.ac.cy/assets/files/publications/pdfs/demo_emulating_moysis_symeonides_2020.pdf"
-                               target="_blank">"Demo:
-                                Emulating Geo-Distributed Fog Services"</a>,
-                            Proceedings of the 5th ACM/IEEE Symposium on Edge Computing (SEC ’20), San Jose, CA, USA,
-                            Association for Computing Machinery, New York, NY, USA, 2020.
+                        <li><a href="https://drive.google.com/file/d/1jklwq0PVCwq90jBXrqes6pMWls9_Gjb5/view"
+                               target="_blank">The Docker Book</a> (2017) James Turnbull.
                         </li>
                     </ul>
                     <strong>Additional Readings</strong>
                     <ul>
-                        <li>J. Nickoloff and S. Kuenzli (2019), Ch. 11-13, "Docker in Action" 2nd Edition, Manning.</li>
+                        <li>
+                            <a href="https://netflixtechblog.com/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436"
+                               target="_blank">Titus, the Netflix container management platform, is now open source</a>
+                            (2018) Netflix.
+                        </li>
                     </ul>
                 </div>
-                <div class="collapse" id="lect14-videos">
+                <div class="collapse" id="lect9-videos">
                     <strong>Videos:</strong>
                     <ul>
                         <li><a href="https://www.youtube.com/watch?v=Qw9zlE3t8Ko" target="_blank">Docker Compose in 12
@@ -1124,21 +858,149 @@
                             Step</a>
                             (2013) by Raghav Pal.
                         </li>
+                        <li><a href="https://www.youtube.com/user/dockerrun" target="_blank">Docker channel</a> on
+                            YouTube.
+                        </li>
                     </ul>
                 </div>
             </td>
         </tr>
 
 
--->
+        <!- LECTURE 10 ->
+        <tr>
+            <td scope="row" style="white-space:nowrap">Lecture 10:</td>
+            <td style="width: 100%"><strong>VM and Container Management Frameworks</strong>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#containerMgt-learn"
+                        data-toggle="collapse"
+                        type="button">
+                    <span class="fi-target-two"></span> Learning Objectives
+                </button>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#containerMgt-read"
+                        data-toggle="collapse"
+                        type="button">
+                    <span class="glyphicon glyphicon-book"></span> Readings
+                </button>
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#containerMgt-videos"
+                        data-toggle="collapse"
+                        type="button"> Videos
+                </button>
+                <div class="collapse epl425-learnout" id="containerMgt-learn">
+                    <strong>Learning Objectives:</strong>
+                    <ul>
+                        <li>Examine, understand and assess techniques for using and managing virtual machines in IaaS
+                            clouds.
+                        </li>
+                        <li>Understand and describe the problem of VM allocation to physical machines.</li>
+                        <li>Understand and discuss the role and functionality of Cloud Application Management
+                            Frameworks.
+                        </li>
+                        <li>Explore and explain the TOSCA standard and its usefulness.</li>
+                        <li>Study, explore, and explain the architecture, functionality and benefits of CAMF and
+                            CELAR.
+                        </li>
+                        <li>Understand and explain the support of elasticity actions by Cloud Application Management
+                            Frameworks.
+                        </li>
+                        <li>Review and explain the key requirements and properties of Container Management Systems.</li>
+                        <li>Become familiar and explain the main properties, techniques and characteristics of Cloud
+                            resource management systems, like Mesos and Borg.
+                        </li>
+                        <li>Become familiar and describe the Kubernetes technology.</li>
+                    </ul>
+                </div>
+                <div class="collapse" id="containerMgt-read">
+                    <strong>Readings:</strong>
+                    <ul>
+                        <li>Z. A. Mann and Z. Adam, “Allocation of Virtual Machines in Cloud Data Centers—A Survey
+                            of Problem Models and Optimization Algorithms,” ACM Comput. Surv., vol. 48, no. 1, pp.
+                            1–34, Aug. 2015.
+                        </li>
+                        <li>I. Pietri and R. Sakellariou, “Mapping Virtual Machines onto Physical Machines in Cloud
+                            Computing,” ACM Comput. Surv., vol. 49, no. 3, pp. 1–30, 2016.
+                        </li>
+                        <li>Loulloudes, N., Sofokleous, C., Trihinas, D., Dikaiakos, M. D., & Pallis, G. (2015).
+                            Enabling Interoperable
+                            Cloud Application Management through an Open Source Ecosystem. IEEE Internet Computing,
+                            19(3), 54–59.
+                            <a href="https://doi.org/10.1109/MIC.2015.60" target="_blank">https://doi.org/10.1109/MIC.2015.60</a>.
+                        </li>
+                        <li>Binz, T., Breitenbücher, U., Kopp, O., & Leymann, F. (2014). TOSCA: Portable automated
+                            deployment
+                            and management of cloud applications. Advanced Web Services, 9781461475, 527–549.
+                            <a href="https://doi.org/10.1007/978-1-4614-7535-4_22" target="_blank">https://doi.org/10.1007/978-1-4614-7535-4_22</a>
+                        </li>
+                        <li>Bellendorf, J., & Mann, Z. Á. (2020). Specification of cloud topologies and
+                            orchestration using TOSCA: a survey. Computing, 102(8), 1793–1815.
+                            <a href="https://doi.org/10.1007/s00607-019-00750-3" target="_blank">https://doi.org/10.1007/s00607-019-00750-3</a>.
+                        </li>
+                        <li>B. Burns, B. Grant, D. Oppenheimer, E. Brewer, and J. Wilkes,
+                            “Borg, Omega, and Kubernetes - Lessons Learned from Three Container-Management Systems over
+                            a Decade,” ACM Queue, vol. 14, no. February, pp. 70–93, 2016.
+                        </li>
+                        <li>B . Hindman et al., “Mesos: A platform for fine-grained
+                            resource sharing in the data center,”
+                            in Proceedings of NSDI 2011: 8th USENIX Symposium on Networked Systems Design and
+                            Implementation, 2011,
+                            pp. 295–308.
+                        </li>
+                        <li>A. Verma, L. Pedrosa, M. R. Korupolu, D. Oppenheimer, E. Tune,
+                            and J. Wilkes,
+                            “Large-scale cluster management at Google with Borg,” in Proceedings of the European
+                            Conference on Computer Systems (EuroSys), 2015.
+                        </li>
+                    </ul>
+                    <strong>Additional Readings</strong>
+                    <ul>
+                        <li>Sofokleous, C., Loulloudes, N., Trihinas, D., Pallis, G., & Dikaiakos, M. D. (2014).
+                            C-Eclipse: An open-source management framework for cloud applications. Lecture Notes in
+                            Computer
+                            Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
+                            Bioinformatics),
+                            8632 LNCS, 38–49. <a href="https://doi.org/10.1007/978-3-319-09873-9_4" target="_blank">https://doi.org/10.1007/978-3-319-09873-9_4</a>.
+                        </li>
+                        <li>Soldani, J., Binz, T., Breitenbücher, U., Leymann, F., & Brogi, A. (2016). ToscaMart: A
+                            method for adapting and reusing cloud applications. Journal of Systems and Software, 113,
+                            395–406.
+                            <a href="https://doi.org/10.1016/j.jss.2015.12.025" target="_blank">https://doi.org/10.1016/j.jss.2015.12.025</a>
+                        </li>
+                        <li>Marko Lukša, "Kubernetes in Action," Manning, 2018.</li>
+                        <li><a href="https://engineering.fb.com/developer-tools/zookeeper-twine/" target="_blank">Containerizing
+                            ZooKeeper with Twine: Powering container orchestration from within</a> (2020) Christopher
+                            Bunn, Facebook.
+                        </li>
+                        <li>J. Nickoloff and S. Kuenzli (2019), Ch. 11-13, "Docker in Action" 2nd Edition, Manning.</li>
+                        <li>R. Peinl, F. Holzschuher, and F. Pfitzer, “Docker Cluster Management for the Cloud -
+                            Survey Results and Own Solution,” J. Grid Comput., vol. 14, no. 2, pp. 265–282, 2016.
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse" id="containerMgt-videos">
+                    <strong>Videos:</strong>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=ISUmszlMQPU" target="_blank">Introduction to
+                            Kuberneters</a>
+                            (2019).
+                        </li>
+                        <li><a href="https://youtu.be/SFjqxCpfD-M" target="_blank">Inside the Kube: A Guided Tour of
+                            Kubernetes Cluster Setup</a> (2019) by Liz Frost, VMware. SREcon19 Americas, Usenix.
+                        </li>
+                        <li><a href="https://www.youtube.com/watch?v=_vHTaIJm9uY" target="_blank">Getting Started with
+                            Kubernetes</a> (2016) by Janakiram MSV.
+                        </li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+
 
         <tr class="epl425-learnout">
-            <th colspan="2">Module 5: Storage Organization and Services</th>
+            <th colspan="2">Module 5: Cloud Storage</th>
         </tr>
-<!--
-        <!- LECTURE 16 ->
+
+        <!- LECTURE 11 ->
         <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 16: 30/10/2020</td>
+            <td scope="row" style="white-space:nowrap">Lecture 11:</td>
             <td style="width: 100%"><strong>Cloud Storage</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#storage1-learn" data-toggle="collapse"
                         type="button">
@@ -1147,6 +1009,10 @@
                 <button class="btn btn-default btn-xs hidden-print" data-target="#storage1-read" data-toggle="collapse"
                         type="button">
                     <span class="glyphicon glyphicon-book"></span> Readings
+                </button>
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#storage1-videos"
+                        data-toggle="collapse"
+                        type="button"> Videos
                 </button>
                 <div class="collapse epl425-learnout" id="storage1-learn">
                     <strong>Learning Objectives:</strong>
@@ -1158,53 +1024,6 @@
                             storage systems.
                         </li>
                         <li>Review the challenges and capabilities of Cloud storage services.</li>
-                    </ul>
-                </div>
-                <div class="collapse" id="storage1-read">
-                    <strong>M. Agroti presentation - Readings:</strong>
-                    <ul>
-                        <li>R. Peinl, F. Holzschuher, and F. Pfitzer, “Docker Cluster Management for the Cloud -
-                            Survey Results and Own Solution,” J. Grid Comput., vol. 14, no. 2, pp. 265–282, 2016.
-                        </li>
-                    </ul>
-                    <strong>M. Motis presentation - Readings:</strong>
-                    <ul>
-                        <li>Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003).
-                            "The Google file system." Proceedings of the Nineteenth ACM Symposium on Operating Systems
-                            Principles - SOSP ’03, 29. https://doi.org/10.1145/945445.945450
-                        </li>
-                    </ul>
-                    <strong>Readings - J. Georgiou presentation:</strong>
-                    <ul>
-                        <li>A. Lakshman and P. Malik, “Cassandra - A decentralized structured storage system,” in
-                            Operating Systems
-                            Review (ACM), 2010, vol. 44, no. 2, pp. 35–40.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
-
-        <!- LECTURE 17 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 17: 3/11/2020</td>
-            <td style="width: 100%"><strong>Cloud Storage (ctd')</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#storage2-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#storage2-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#storage2-videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="storage2-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
                         <li>Understand and explain concepts and challenges related to storage in Cloud computing
                             systems.
                         </li>
@@ -1214,19 +1033,19 @@
                         <li>Review the challenges and capabilities of Cloud storage services.</li>
                     </ul>
                 </div>
-                <div class="collapse" id="storage2-read">
-                    <strong>Readings - Chr. Christodoulou presentation:</strong>
+                <div class="collapse" id="storage1-read">
+                    <strong>Readings:</strong>
                     <ul>
+                        <li>Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003).
+                            "The Google file system." Proceedings of the Nineteenth ACM Symposium on Operating Systems
+                            Principles - SOSP ’03, 29. https://doi.org/10.1145/945445.945450
+                        </li>
+                        <li>A. Lakshman and P. Malik, “Cassandra - A decentralized structured storage system,” in
+                            Operating Systems
+                            Review (ACM), 2010, vol. 44, no. 2, pp. 35–40.
+                        </li>
                         <li>K. Shvachko, H. Kuang, S. Radia, and R. Chansler, “The Hadoop distributed file system,”
                             in 2010 IEEE 26th Symposium on Mass Storage Systems and Technologies, MSST2010, 2010.
-                        </li>
-                    </ul>
-                    <strong>Readings - Ph. Pikrides presentation:</strong>
-                    <ul>
-                        <li>DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A.,
-                            Sivasubramanian, S., Vosshall, P., & Vogels, W. (2007). "Dynamo: Amazon’s highly available
-                            key-value store."
-                            Operating Systems Review (ACM), 205–220. https://doi.org/10.1145/1294261.1294281
                         </li>
                     </ul>
                     <strong>Additional Readings:</strong>
@@ -1260,7 +1079,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="collapse" id="storage2-videos">
+                <div class="collapse" id="storage1-videos">
                     <strong>Videos:</strong>
                     <ul>
                         <li><a href="https://dl.acm.org/doi/10.1145/1323293.1294281" target="_blank">Dynamo</a> (2007)
@@ -1270,99 +1089,128 @@
                 </div>
             </td>
         </tr>
--->
+
+
         <!- PART III -->
 
         <tr class="warning">
-            <th class="lead" colspan="2">Part III: Cloud application programming models and paradigms</th>
+            <th class="lead" colspan="2">Part III: Cloud Application Programming Paradigms</th>
         </tr>
+
+        <!- MODULE 7 -->
         <tr class="epl425-learnout">
-            <th colspan="2">Module 6: Big Data Processing Platforms</th>
+            <th colspan="2">Module 6: Serverless Computing</th>
         </tr>
-<!--
-        <!- LECTURE 18 ->
+
+
+        <!- LECTURE 12 ->
         <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 18: 6/11/2020</td>
-            <td style="width: 100%"><strong>Big-Data Processing Platforms</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#bigdata-learn" data-toggle="collapse"
+            <td scope="row" style="white-space:nowrap">Lecture 12:</td>
+            <td style="width: 100%"><strong>Serverless Computing</strong>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless1-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
                 </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#bigdata-read" data-toggle="collapse"
+                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless1-read" data-toggle="collapse"
                         type="button">
                     <span class="glyphicon glyphicon-book"></span> Readings
                 </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#bigdata-videos"
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#srvless1-videos"
                         data-toggle="collapse"
                         type="button"> Videos
                 </button>
-                <div class="collapse epl425-learnout" id="bigdata-learn">
+                <div class="collapse epl425-learnout" id="srvless1-learn">
                     <strong>Learning Objectives:</strong>
                     <ul>
-                        <li>Explore and understand the key concepts behind popular Big-data processing platforms.</li>
-                        <li>Become familiar with Hadoop's programming model.</li>
-                        <li>Explore and familiarize with Apache SPARK's ecosystem.</li>
+                        <li>Explore and become familiar with the serverless Cloud computing paradigm.</li>
+                        <li>Understand and explain the main drivers and key concepts behind serverless computing and the
+                            Function-as-a-Service model.
+                        </li>
+                        <li>Understand the key characteristics of FaaS and its differences from PaaS, SaaS and IaaS.
+                        </li>
+                        <li>Understand the main limitations of current FaaS offerings.</li>
+                        <li>Explore and describe examples of structuring Cloud applications following the serverless
+                            paradigm.
+                        </li>
+                        <li>Understand and describe limitations that current Cloud services pose to serverless
+                            applications.
+                        </li>
+                        <li>Understand and explain the concepts of stateless vs. stateful functions; explain how
+                            stateful
+                            applications
+                            can be implemented on top of stateless functions.
+                        </li>
                     </ul>
                 </div>
-                <div class="collapse" id="bigdata-read">
+                <div class="collapse" id="srvless1-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>J. Dean and S. Ghemawat, “MapReduce: Simplified data processing on large clusters,”
-                            in OSDI 2004 - 6th Symposium on Operating Systems Design and Implementation, 2004, pp.
-                            137–149.
+                        <li>P. Castro, V. Ishakian, V. Muthusamy, and A. Slominski, “The rise of serverless computing,”
+                            Commun. ACM, vol. 62, no. 12, pp. 44–54, Nov. 2019.
+                        </li>
+                        <li>E. Jonas et al., “Cloud Programming Simplified: A Berkeley View on Serverless Computing,”
+                            Feb. 2019.
+                        </li>
+                        <li>J. M. Hellerstein et al., “Serverless Computing: One Step Forward, Two Steps Back,” in
+                            Conference on Innovative Data Systems Research (CIDR), 2019.
                         </li>
                     </ul>
-                    <strong>Readings - G. Argyriou presentation:</strong>
+                    <strong>Optional Additional Readings:</strong>
                     <ul>
-                        <li>M. Zaharia et al., “Apache Spark: a unified engine for big data processing,” Commun. ACM,
-                            vol. 59, no. 11, pp. 56–65, 2016.
+                        <li>I. E. Akkus et al., “SAND: Towards High-performance Serverless
+                            Computing,” in Proceedings of the 2018 USENIX Conference on Usenix Annual
+                            Technical Conference, 2018, pp. 923–935.
                         </li>
-                        <li>S. Tang, B. He, C. Yu, Y. Li, and K. Li, “A Survey on Spark Ecosystem for Big Data
-                            Processing,” arXiv:1811.08834, 2018.
+                        <li>Oakes, E., Yang, L., Zhou, D., Houck, K., Harter, T., Arpaci-Dusseau, A. C., &
+                            Arpaci-Dusseau, R. H.
+                            (2020).
+                            SOCK: Rapid task provisioning with serverless-optimized containers. Proceedings of the
+                            2018 USENIX Annual Technical Conference, USENIX ATC 2018, 57–69,
+                            <a href="https://www.usenix.org/conference/atc18/presentation/oakes" target="_blank">https://www.usenix.org/conference/atc18/presentation/oakes</a>.
                         </li>
-                        <li>M. Zaharia, M. Chowdhury, M. J. Franklin, S. Shenker, and I. Stoica, “Spark:
-                            Cluster computing with working sets,” 2nd USENIX Work. Hot Top. Cloud Comput. HotCloud 2010,
-                            2010.
+                        <li>A. Agache et al., “Firecracker: Lightweight virtualization for serverless applications,”
+                            in Proceedings of the 17th USENIX Symposium on Networked Systems Design and Implementation,
+                            NSDI 2020, 2020, pp. 419–434.
                         </li>
-                    </ul>
-                    <strong>Readings - A. Gelasis presentation:</strong>
-                    <ul>
-                        <li>MV. K. Vavilapalli et al., “Apache hadoop YARN: Yet another resource negotiator,” in
-                            Proceedings of the 4th Annual Symposium on Cloud Computing, SoCC 2013, 2013, vol. 13, pp.
-                            1–3.
+                        <li>Wang, L., Li, M., Zhang, Y., Ristenpart, T., & Swift, M. (2018). Peeking Behind the
+                            Curtains of Serverless Platforms. 2018 USENIX Annual Technical Conference (USENIX ATC 18),
+                            133–146.
+                            (<a
+                                    href="http://docs.aws.amazon.com/AWSEC2/latest/%0Ahttps://www.usenix.org/conference/atc18/presentation/wang-liang"
+                                    target="_blank">slides)</a>.
                         </li>
-                    </ul>
-
-                    <strong>Other Readings</strong>
-                    <ul>
-                        <li><a href="https://databricks.com/spark/getting-started-with-apache-spark" target="_blank">Apache
-                            Spark
-                            Tutorial</a>.
+                        <li>Y. Gan et al. (2019). “An Open-Source Benchmark Suite for Microservices and Their
+                            Hardware-Software
+                            Implications for Cloud & Edge Systems,” in Proceedings of the Twenty-Fourth International
+                            Conference on Architectural Support for Programming Languages and Operating Systems - ASPLOS
+                            ’19,
+                            2019, pp. 3–18.
                         </li>
-                        <li><a href="https://databricks.com/blog/2014/01/21/spark-and-hadoop.html" target="_blank">Apache
-                            Spark and Hadoop: Working Together</a> (2016) Ion Stoica, DataBrics blog.
+                        <li>D. Ardelean, A. Diwan, C. Erdman (2018).
+                            “Performance Analysis of Cloud Applications,” in Proceedings of the 15th USENIX Symposium
+                            on Networked Systems Design and Implementation (NSDI ’18), pp. 405–417.
                         </li>
                     </ul>
                 </div>
-                <div class="collapse" id="bigdata-videos">
+                <div class="collapse" id="srvless1-videos">
                     <strong>Videos:</strong>
                     <ul>
-                        <li><a href="https://www.youtube.com/watch?v=p4PkA2huzVc" target="_blank">Introducing Apache
-                            Spark 3.0</a>
-                            (2020) Matei Zaharia and Brooke Wenig. Spark + AI Summit 2020
+                        <li><a href="https://www.usenix.org/conference/atc18/presentation/akkus" target="_blank">SAND:
+                            Towards High-Performance Serverless Computing</a> (2018).
                         </li>
                     </ul>
                 </div>
             </td>
         </tr>
--->
+
+
         <tr class="epl425-learnout">
-            <th colspan="2">Module 7: Microservices</th>
+            <th colspan="2">Module 7: Microservices and DevOps</th>
         </tr>
-<!--
-        <!- LECTURE 19 ->
+
+        <!- LECTURE 13 ->
         <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 19: 10/11/2020</td>
+            <td scope="row" style="white-space:nowrap">Lecture 13:</td>
             <td style="width: 100%"><strong>Microservices</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#microsrv-learn" data-toggle="collapse"
                         type="button">
@@ -1396,9 +1244,6 @@
                         <li><a href="https://www.infoq.com/articles/microservices-intro/" target="_blank">Microservices:
                             Decomposing Applications for Deployability and Scalability</a> (2014) C. Richardson, Infoq.
                         </li>
-                    </ul>
-                    <strong>Readings - M. Kasioulis presentation:</strong>
-                    <ul>
                         <li>M.G. Kakivaya et al., “Service Fabric: A Distributed
                             Platform for Building Microservices in the Cloud,” Proc. 13th
                             EuroSys Conf. EuroSys 2018, vol. 2018.
@@ -1406,12 +1251,21 @@
                         <li>Y. Gan and C. Delimitrou, “The Architectural Implications of
                             Cloud Microservices,” IEEE Comput. Archit. Lett., vol. 17, no. 2, pp. 155–158, Jul. 2018.
                         </li>
-                    </ul>
-                    <strong>Readings - A. Prokopiou presentation:</strong>
-                    <ul>
                         <li>E. Fadda, P. Plebani, M. Vitali. "Monitoring-aware Optimal Deployment
                             for Applications based on Microservices," IEEE Transactions on Services
                             Computing, 2019. https://doi.org/10.1109/tsc.2019.2910069
+                        </li>
+                        <li>L. Leite, C. Rocha, F. Kon, D. Milojicic, and P. Meirelles, “A survey of DevOps concepts and
+                            challenges,”
+                            ACM Comput. Surv., vol. 52, no. 6, 2019.
+                        </li>
+                        <li>A. Wiedemann, H. Gewald, H. Krcmar, and M. Wiesche, “The DevOps Phenomenon - An executive
+                            crash course,”
+                            ACM Queue, 2019.
+                        </li>
+                        <li>D. Trihinas, A. Tryfonos, M. D. Dikaiakos, and G. Pallis, “DevOps as a Service: Pushing the
+                            Boundaries of Microservice Adoption,” IEEE Internet Comput., vol. 22, no. 3, pp. 65–71, May
+                            2018.
                         </li>
                     </ul>
                     <strong>Optional Readings:</strong>
@@ -1446,335 +1300,71 @@
             </td>
         </tr>
 
--->
-
-        <!- MODULE 8 -->
         <tr class="epl425-learnout">
-            <th colspan="2">Module 8: Serverless Computing</th>
+            <th colspan="2">Module 8: Big Data Processing Platforms</th>
         </tr>
 
-<!--
-        <!- LECTURE 22 ->
+        <!- LECTURE 14 ->
         <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 22: 20/11/2020</td>
-            <td style="width: 100%"><strong>Serverless Computing</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless1-learn" data-toggle="collapse"
+            <td scope="row" style="white-space:nowrap">Lecture 14:</td>
+            <td style="width: 100%"><strong>Big-Data Processing Platforms</strong>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#bigdata-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
                 </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless1-read" data-toggle="collapse"
+                <button class="btn btn-default btn-xs hidden-print" data-target="#bigdata-read" data-toggle="collapse"
                         type="button">
                     <span class="glyphicon glyphicon-book"></span> Readings
                 </button>
-                <div class="collapse epl425-learnout" id="srvless1-learn">
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#bigdata-videos"
+                        data-toggle="collapse"
+                        type="button"> Videos
+                </button>
+                <div class="collapse epl425-learnout" id="bigdata-learn">
                     <strong>Learning Objectives:</strong>
                     <ul>
-                        <li>Explore and become familiar with the serverless Cloud computing paradigm.</li>
-                        <li>Understand and explain the main drivers and key concepts behind serverless computing and the
-                            Function-as-a-Service model.
-                        </li>
-                        <li>Understand the key characteristics of FaaS and its differences from PaaS, SaaS and IaaS.
-                        </li>
-                        <li>Understand the main limitations of current FaaS offerings.</li>
+                        <li>Explore and understand the key concepts behind popular Big-data processing platforms.</li>
+                        <li>Become familiar with Hadoop's programming model.</li>
+                        <li>Explore and familiarize with Apache SPARK's ecosystem.</li>
                     </ul>
                 </div>
-                <div class="collapse" id="srvless1-read">
+                <div class="collapse" id="bigdata-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>P. Castro, V. Ishakian, V. Muthusamy, and A. Slominski, “The rise of serverless computing,”
-                            Commun. ACM, vol. 62, no. 12, pp. 44–54, Nov. 2019.
+                        <li>J. Dean and S. Ghemawat, “MapReduce: Simplified data processing on large clusters,”
+                            in OSDI 2004 - 6th Symposium on Operating Systems Design and Implementation, 2004, pp.
+                            137–149.
                         </li>
-                        <li>E. Jonas et al., “Cloud Programming Simplified: A Berkeley View on Serverless Computing,”
-                            Feb. 2019.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="srvless1-videos">
-                    <strong>Videos:</strong>
 
-                </div>
-            </td>
-        </tr>
-
-        <!- LECTURE 23 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 23: 24/11/2020</td>
-            <td style="width: 100%"><strong>Serverless Computing (ctd')</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless2-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless2-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#srvless2-videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="srvless2-learn">
-                    <strong>Learning Objectives:</strong>
+                        <li>S. Tang, B. He, C. Yu, Y. Li, and K. Li, “A Survey on Spark Ecosystem for Big Data
+                            Processing,” arXiv:1811.08834, 2018.
+                        </li>
+                        <li>M. Zaharia, M. Chowdhury, M. J. Franklin, S. Shenker, and I. Stoica, “Spark:
+                            Cluster computing with working sets,” 2nd USENIX Work. Hot Top. Cloud Comput. HotCloud 2010,
+                            2010.
+                        </li>
+                    </ul>
+                    <strong>Other Readings</strong>
                     <ul>
-                        <li>Explore and describe examples of structuring Cloud applications following the serverless
-                            paradigm.
+                        <li><a href="https://databricks.com/spark/getting-started-with-apache-spark" target="_blank">Apache
+                            Spark
+                            Tutorial</a>.
                         </li>
-                        <li>Understand and describe limitations that current Cloud services pose to serverless
-                            applications.
+                        <li><a href="https://databricks.com/blog/2014/01/21/spark-and-hadoop.html" target="_blank">Apache
+                            Spark and Hadoop: Working Together</a> (2016) Ion Stoica, DataBrics blog.
                         </li>
-                        <li>Understand and explain the concepts of stateless vs. stateful functions; explain how
-                            stateful
-                            applications
-                            can be implemented on top of stateless functions.
+                        <li>M. Zaharia et al., “Apache Spark: a unified engine for big data processing,” Commun. ACM,
+                            vol. 59, no. 11, pp. 56–65, 2016.
                         </li>
                     </ul>
                 </div>
-                <div class="collapse" id="srvless2-read">
-                    <strong>Readings:</strong>
-                    <ul>
-                        <li>E. Jonas et al., “Cloud Programming Simplified: A Berkeley View on Serverless Computing,”
-                            Feb. 2019.
-                        </li>
-                    </ul>
-                    <strong>Readings - A. Proxenos presentation:</strong>
-                    <ul>
-                        <li>I. E. Akkus et al., “SAND: Towards High-performance Serverless
-                            Computing,” in Proceedings of the 2018 USENIX Conference on Usenix Annual
-                            Technical Conference, 2018, pp. 923–935.
-                        </li>
-                        <li>Oakes, E., Yang, L., Zhou, D., Houck, K., Harter, T., Arpaci-Dusseau, A. C., &
-                            Arpaci-Dusseau, R. H.
-                            (2020).
-                            SOCK: Rapid task provisioning with serverless-optimized containers. Proceedings of the
-                            2018 USENIX Annual Technical Conference, USENIX ATC 2018, 57–69,
-                            <a href="https://www.usenix.org/conference/atc18/presentation/oakes" target="_blank">https://www.usenix.org/conference/atc18/presentation/oakes</a>.
-                        </li>
-                    </ul>
-                    <strong>Readings - M. Motis presentation:</strong>
-                    <ul>
-                        <li>A. Agache et al., “Firecracker: Lightweight virtualization for serverless applications,”
-                            in Proceedings of the 17th USENIX Symposium on Networked Systems Design and Implementation,
-                            NSDI 2020, 2020, pp. 419–434.
-                        </li>
-                    </ul>
-                    <strong>Optional Additional Readings:</strong>
-                    <ul>
-                        <li>J. M. Hellerstein et al., “Serverless Computing: One Step Forward, Two Steps Back,” in
-                            Conference on Innovative Data Systems Research (CIDR), 2019.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="srvless2-videos">
+                <div class="collapse" id="bigdata-videos">
                     <strong>Videos:</strong>
                     <ul>
-                        <li><a href="https://www.usenix.org/conference/atc18/presentation/akkus" target="_blank">SAND:
-                            Towards High-Performance Serverless Computing</a> (2018).
+                        <li><a href="https://www.youtube.com/watch?v=p4PkA2huzVc" target="_blank">Introducing Apache
+                            Spark 3.0</a>
+                            (2020) Matei Zaharia and Brooke Wenig. Spark + AI Summit 2020
                         </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
-
-
-        <!- LECTURE 24 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 24: 27/11/2020</td>
-            <td style="width: 100%"><strong>Serverless Computing Research</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless3-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#srvless3-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <div class="collapse epl425-learnout" id="srvless3-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Explore and describe technical characteristics of serverless platforms.</li>
-                        <li>Explore, understand and describe techniques and results in comparing serverless to other
-                            Cloud computing paradigms.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="srvless3-read">
-                    <strong>Readings - M. Symeonidis presentation:</strong>
-                    <ul>
-                        <li>Wang, L., Li, M., Zhang, Y., Ristenpart, T., & Swift, M. (2018). Peeking Behind the
-                            Curtains of Serverless Platforms. 2018 USENIX Annual Technical Conference (USENIX ATC 18),
-                            133–146.
-                            (<a
-                                    href="http://docs.aws.amazon.com/AWSEC2/latest/%0Ahttps://www.usenix.org/conference/atc18/presentation/wang-liang"
-                                    target="_blank">slides)</a>.
-                        </li>
-                        <li>Y. Gan et al. (2019). “An Open-Source Benchmark Suite for Microservices and Their
-                            Hardware-Software
-                            Implications for Cloud & Edge Systems,” in Proceedings of the Twenty-Fourth International
-                            Conference on Architectural Support for Programming Languages and Operating Systems - ASPLOS
-                            ’19,
-                            2019, pp. 3–18.
-                        </li>
-                    </ul>
-                    <strong>Readings - C. Christodoulou presentation:</strong>
-                    <ul>
-                        <li>D. Ardelean, A. Diwan, C. Erdman (2018).
-                            “Performance Analysis of Cloud Applications,” in Proceedings of the 15th USENIX Symposium
-                            on Networked Systems Design and Implementation (NSDI ’18), pp. 405–417.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
--->
-
-        <!-- PART IV -->
-        <tr class="warning">
-            <th class="lead" colspan="2">Part IV: Advanced Topics</th>
-        </tr>
-
-
-
-        <!- MODULE 9 -->
-        <tr class="epl425-learnout">
-            <th colspan="2">Module 9: DevOps</th>
-        </tr>
-
-<!--
-
-
-        <!- LECTURE 19 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 21: 17/11/2020</td>
-            <td style="width: 100%"><strong>Cloud Management Frameworks</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#camf-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#camf-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#camf-videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="camf-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Understand and discuss the role and functionality of Cloud Application Management
-                            Frameworks.
-                        </li>
-                        <li>Explore and explain the TOSCA standard and its usefulness.</li>
-                        <li>Study, explore, and explain the architecture, functionality and benefits of CAMF and
-                            CELAR.
-                        </li>
-                        <li>Understand and explain the support of elasticity actions by Cloud Application Management
-                            Frameworks.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="camf-read">
-                    <strong>Readings - A. Kolani presentation:</strong>
-                    <ul>
-                        <li>Soldani, J., Binz, T., Breitenbücher, U., Leymann, F., & Brogi, A. (2016). ToscaMart: A
-                            method for
-                            adapting and reusing cloud applications. Journal of Systems and Software, 113, 395–406.
-                            <a href="https://doi.org/10.1016/j.jss.2015.12.025" target="_blank">https://doi.org/10.1016/j.jss.2015.12.025</a>
-                        </li>
-                        <li>Binz, T., Breitenbücher, U., Kopp, O., & Leymann, F. (2014). TOSCA: Portable automated
-                            deployment
-                            and management of cloud applications. Advanced Web Services, 9781461475, 527–549.
-                            <a href="https://doi.org/10.1007/978-1-4614-7535-4_22" target="_blank">https://doi.org/10.1007/978-1-4614-7535-4_22</a>
-                        </li>
-                        <li>Bellendorf, J., & Mann, Z. Á. (2020). Specification of cloud topologies and orchestration
-                            using
-                            TOSCA: a survey. Computing, 102(8), 1793–1815.
-                            <a href="https://doi.org/10.1007/s00607-019-00750-3" target="_blank">https://doi.org/10.1007/s00607-019-00750-3</a>.
-                        </li>
-                    </ul>
-                    <strong>Readings - M. Agroti presentation:</strong>
-                    <ul>
-                        <li>Loulloudes, N., Sofokleous, C., Trihinas, D., Dikaiakos, M. D., & Pallis, G. (2015).
-                            Enabling
-                            Interoperable
-                            Cloud Application Management through an Open Source Ecosystem. IEEE Internet Computing,
-                            19(3), 54–59.
-                            <a href="https://doi.org/10.1109/MIC.2015.60" target="_blank">https://doi.org/10.1109/MIC.2015.60</a>.
-                        </li>
-                        <li>Sofokleous, C., Loulloudes, N., Trihinas, D., Pallis, G., & Dikaiakos, M. D. (2014).
-                            C-Eclipse:
-                            An open-source management framework for cloud applications. Lecture Notes in Computer
-                            Science
-                            (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
-                            Bioinformatics),
-                            8632 LNCS, 38–49. <a href="https://doi.org/10.1007/978-3-319-09873-9_4" target="_blank">https://doi.org/10.1007/978-3-319-09873-9_4</a>.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="camf-videos">
-                    <strong>Videos:</strong>
-                    <ul>
-                        <li><a href="https://youtu.be/-1KB-o-dsJQ" target="_blank">CELAR Architecture: Automatic,
-                            Multi-Grained
-                            elasticity-provisioning
-                            for the Cloud</a>.
-                        </li>
-                        <li><a href="https://youtu.be/hGU-1u51c-o" target="_blank">Managing Cloud applications using
-                            CAMF</a>.
-                        </li>
-                        <li><a href="https://youtu.be/vr2nFY_XzNA" target="_blank">c-Eclipse: A Cloud Application
-                            Management
-                            Framework for Eclipse</a>.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
-        <!- LECTURE 18 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 20: 13/11/2020</td>
-            <td style="width: 100%"><strong>Microservices and DevOps</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect18-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#lect18-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#lect18-videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="lect18-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Explore and become familiar with platforms and tools for Cloud Microservice development.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="lect18-read">
-                    <strong>Readings - J. Georgiou presentation:</strong>
-                    <ul>
-                        <li>L. Leite, C. Rocha, F. Kon, D. Milojicic, and P. Meirelles, “A survey of DevOps concepts and
-                            challenges,”
-                            ACM Comput. Surv., vol. 52, no. 6, 2019.
-                        </li>
-                        <li>A. Wiedemann, H. Gewald, H. Krcmar, and M. Wiesche, “The DevOps Phenomenon - An executive
-                            crash course,”
-                            ACM Queue, 2019.
-                        </li>
-                        <li>D. Trihinas, A. Tryfonos, M. D. Dikaiakos, and G. Pallis, “DevOps as a Service: Pushing the
-                            Boundaries of Microservice Adoption,” IEEE Internet Comput., vol. 22, no. 3, pp. 65–71, May
-                            2018.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="lect18-videos">
-                    <strong>Videos:</strong>
-                    <ul>
                         <li><a href="https://azure.microsoft.com/en-in/overview/devops-tutorial/" target="_blank">DevOps
                             Tutorial</a> on Azure. (2020) Microsoft.
                         </li>
@@ -1782,116 +1372,11 @@
                 </div>
             </td>
         </tr>
--->
-
-        <!- MODULE 9 -->
-        <tr class="epl425-learnout">
-            <th colspan="2">Module 10: Edge Computing</th>
-        </tr>
-
-        <!--
-        <!- LECTURE 25 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 25: 1/12/2020</td>
-            <td style="width: 100%"><strong>Industrial Edge Computing</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#edge1-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#edge1-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <div class="collapse epl425-learnout" id="edge1-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Explore, understand and describe the architecture and technical challenges of industrial
-                            edge and
-                            fog infrastructures.
-                        </li>
-                        <li>Explore, understand and describe the differences between fog and edge computing.</li>
-                        <li>Study, understand and describe the key components of an autonomous vehicular edge
-                            platform.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="edge1-read">
-                    <strong>Readings - M. Kasioulis presentation:</strong>
-                    <ul>
-                        <li>T. Qiu, J. Chi, X. Zhou, Z. Ning, M. Atiquzzaman, and D. O. Wu, “Edge Computing in
-                            Industrial Internet of Things: Architecture, Advances and Challenges,” IEEE Commun. Surv.
-                            Tutorials,
-                            pp. 1–1, Jul. 2020.
-                        <li>
-                            Y. Wang, L. Liu, X. Zhang, and W. Shi, “HydraOne: An indoor experimental research and
-                            education platform for CAVs,” in 2nd USENIX Workshop on Hot Topics in Edge Computing,
-                            HotEdge 2019, co-located with USENIX ATC 2019, 2019.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
 
 
-        <!- LECTURE 26 ->
-        <tr>
-            <td scope="row" style="white-space:nowrap">Lecture 26: 4/12/2020</td>
-            <td style="width: 100%"><strong>Edge Computing</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#edge2-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#edge2-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <div class="collapse epl425-learnout" id="edge2-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Explore, understand and describe the architecture and technical challenges of platforms
-                            offering
-                            edge services over IOT devices.
-                        </li>
-                        <li>Explore, understand and describe the technical challenges involved in adopting blockchains
-                            and
-                            distributed ledgers in the context of edge infrastructures.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="edge2-read">
-                    <strong>Readings - I. Savvides presentation:</strong>
-                    <ul>
-                        <li>K. Karlsson, W. Jiang, S. Wicker, E. Ma, R. Van Renesse, and H. Weatherspoon,
-                            “Vegvisir : A Partition-Tolerant Blockchain for the Internet-of-Things,” in
-                            2018 IEEE 38th International Conference on Distributed Computing Systems (ICDCS).
-                        </li>
-                        <li>A. Zavodovski, N. Mohan, W. Wong, and J. Kangasharju, “Open infrastructure for Edge:
-                            A distributed ledger outlook,” in 2nd USENIX Workshop on Hot Topics in Edge Computing,
-                            HotEdge 2019, co-located with USENIX ATC 2019, 2019.
-                        </li>
-                    </ul>
-                    <strong>Readings - G. Argyriou presentation:</strong>
-                    <ul>
-                        <li>F. Bakir, R. Wolski, C. Krintz, and G. S. Ramachandran, “Devices-as-services: Rethinking
-                            scalable
-                            service architectures for the internet of things,” in 2nd USENIX Workshop on Hot Topics in
-                            Edge
-                            Computing, HotEdge 2019, co-located with USENIX ATC 2019, 2019.
-                        </li>
-                        <li>C. Cappiello et al., “Improving Health Monitoring With Adaptive Data Movement in Fog
-                            Computing,”
-                            Front. Robot. AI, vol. 7, p. 96, 2020.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
--->
         <tr class="epl425-precept">
             <th class="lead" colspan="2">Precepts and Laboratories</th>
         </tr>
-
 
 
         <!- PRECEPT 1 ->
@@ -1936,8 +1421,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="collapse" id="prec1-read">
-                </div>
                 <div class="collapse epl425-learnout" id="prec1-videos">
                     <strong>Videos:</strong>
                     <ul>
@@ -1965,7 +1448,8 @@
                         <li>Become acquainted with the AWS Learning Web site.</li>
                         <li>Setup and use AWS student account.</li>
                         <li>Review the online material for <strong>AWS Academy Cloud Foundations (ACF)</strong> and
-                            <strong>AWS Academy Introduction to Cloud (AIC) - Semester 1</strong> courses.</li>
+                            <strong>AWS Academy Introduction to Cloud (AIC) - Semester 1</strong> courses.
+                        </li>
                     </ul>
                 </div>
                 <div class="collapse" id="lab1-read">
@@ -1975,7 +1459,8 @@
                                target="_blank">Student Guide</a> for the ACF (AWS Academy Cloud Foundations).
                             Access requires registration.
                         </li>
-                        <li><a href="https://awsacademy.instructure.com/courses/4354/pages/how-to-complete-lab-exercises?module_item_id=516122"
+                        <li>
+                            <a href="https://awsacademy.instructure.com/courses/4354/pages/how-to-complete-lab-exercises?module_item_id=516122"
                                target="_blank">How to Complete Lab Exercises</a> for AIC (AWS Academy Introduction
                             to Cloud - Semester 1). Access requires registration.
                         </li>
@@ -2073,13 +1558,15 @@
                                target="_blank">Student Guide, AIC-M1: Global Infrastructure</a>
                             (AWS Academy Introduction to Cloud - Semester 1). Access requires registration.
                         </li>
-                        <li>Student Guide, <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516126"
-                                              target="_blank">AIC-M2: Structures of the Cloud</a>
+                        <li>Student Guide, <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516126"
+                                target="_blank">AIC-M2: Structures of the Cloud</a>
                             AWS Academy Introduction to Cloud - Semester 1. Access requires registration.
                         </li>
                         <li><a href="https://awsacademy.instructure.com/courses/3781/modules/items/462220"
                                target="_blank">Student
-                            Guide, ACF-M1: Cloud Concepts Overview</a> (Module 1, AWS Academy Cloud Foundations). Access requires registration.
+                            Guide, ACF-M1: Cloud Concepts Overview</a> (Module 1, AWS Academy Cloud Foundations). Access
+                            requires registration.
                         </li>
                     </ul>
                 </div>
@@ -2171,8 +1658,10 @@
                 <div class="collapse" id="lab3-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516128"
-                                                 target="_blank">AIC-M3: AWS Console</a> course (AWS Academy Introduction to Cloud, Semester 1).
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516128"
+                                target="_blank">AIC-M3: AWS Console</a> course (AWS Academy Introduction to Cloud,
+                            Semester 1).
                             Access requires registration.
                         </li>
                         <li><a href="https://awsacademy.instructure.com/courses/3781/modules/items/462220"
@@ -2183,7 +1672,6 @@
                 </div>
             </td>
         </tr>
-
 
 
         <tr>
@@ -2222,8 +1710,9 @@
                 <div class="collapse" id="prec4-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462247"
-                                                 target="_blank">ACF Module 3</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462247"
+                                target="_blank">ACF Module 3</a>.
                         </li>
                     </ul>
                 </div>
@@ -2265,22 +1754,31 @@
                 <div class="collapse epl425-learnout" id="lab4-learn"><strong>Learning Objectives:</strong>
                     <ul>
                         <li>Become acquainted with the tools to browse and access AWS Global Infrastructure.</li>
-                        <li>Learn how to to create an Amazon Elastic Compute Cloud (Amazon EC2) instance and an Amazon S3 bucket,
-                            and use them to host a website.</li>
-                        <li>Learn the purpose of access keys, a Domain Name System (DNS), Amazon Route 53, and Virtual Private Clouds.</li>
+                        <li>Learn how to to create an Amazon Elastic Compute Cloud (Amazon EC2) instance and an Amazon
+                            S3 bucket,
+                            and use them to host a website.
+                        </li>
+                        <li>Learn the purpose of access keys, a Domain Name System (DNS), Amazon Route 53, and Virtual
+                            Private Clouds.
+                        </li>
                     </ul>
                 </div>
                 <div class="collapse" id="lab4-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516128"
-                                                 target="_blank">AIC-M3: AWS Console</a> of the AWS Academy Introduction to Cloud - Semester 1 course.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516128"
+                                target="_blank">AIC-M3: AWS Console</a> of the AWS Academy Introduction to Cloud -
+                            Semester 1 course.
                         </li>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516130"
-                                                 target="_blank">AIC-M4: Virtual Servers</a> of the AWS Academy Introduction to Cloud - Semester 1 course.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516130"
+                                target="_blank">AIC-M4: Virtual Servers</a> of the AWS Academy Introduction to Cloud -
+                            Semester 1 course.
                         </li>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462247"
-                                                 target="_blank">AFC-M3: AWS Global Infrastructure Overview</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462247"
+                                target="_blank">AFC-M3: AWS Global Infrastructure Overview</a>.
                         </li>
                     </ul>
                 </div>
@@ -2324,8 +1822,9 @@
                 <div class="collapse" id="prec5-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/18462/modules/items/1513320"
-                                                 target="_blank">ACF-M4: AWS Cloud Security</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/18462/modules/items/1513320"
+                                target="_blank">ACF-M4: AWS Cloud Security</a>.
                         </li>
                     </ul>
                 </div>
@@ -2381,14 +1880,17 @@
                 <div class="collapse" id="lab5-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student  Guide for the <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462258"
-                                                      target="_blank">ACF-M4: Cloud Security</a>.
+                        <li>Student Guide for the <a
+                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462258"
+                                target="_blank">ACF-M4: Cloud Security</a>.
                         </li>
-                        <li>Student  Guide for the <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516140"
-                                                      target="_blank"> AIC-M7: Security 1</a>.
+                        <li>Student Guide for the <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516140"
+                                target="_blank"> AIC-M7: Security 1</a>.
                         </li>
-                        <li>Student  Guide for the <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516143"
-                                                      target="_blank"> AIC-M8: Security 2</a>.
+                        <li>Student Guide for the <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516143"
+                                target="_blank"> AIC-M8: Security 2</a>.
                         </li>
                     </ul>
                 </div>
@@ -2439,8 +1941,9 @@
                 <div class="collapse" id="prec6-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462270"
-                                                 target="_blank">ACF-Module 5: Networking and Content Delivery</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462270"
+                                target="_blank">ACF-Module 5: Networking and Content Delivery</a>.
                         </li>
                     </ul>
                 </div>
@@ -2485,11 +1988,13 @@
                 <div class="collapse" id="lab6-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516134"
-                                                 target="_blank">IAC-Module 5: Content Delivery</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516134"
+                                target="_blank">IAC-Module 5: Content Delivery</a>.
                         </li>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462270"
-                                                 target="_blank">ACF-Module 5: Networking and Content Delivery</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462270"
+                                target="_blank">ACF-Module 5: Networking and Content Delivery</a>.
                         </li>
                     </ul>
                 </div>
@@ -2535,8 +2040,9 @@
                 <div class="collapse" id="prec7-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462287"
-                                                 target="_blank">ACF-Module 6: Compute Cloud</a> (access may require
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462287"
+                                target="_blank">ACF-Module 6: Compute Cloud</a> (access may require
                             registration).
                         </li>
                     </ul>
@@ -2580,8 +2086,9 @@
                 <div class="collapse" id="lab7-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516151"
-                                                 target="_blank">AIC-Module 11: Load Balancers and Caching</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516151"
+                                target="_blank">AIC-Module 11: Load Balancers and Caching</a>.
                         </li>
                     </ul>
                 </div>
@@ -2620,8 +2127,9 @@
                 <div class="collapse" id="prec8-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462287"
-                                                 target="_blank">ACF-Module 6: Compute Cloud</a> (access may require
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462287"
+                                target="_blank">ACF-Module 6: Compute Cloud</a> (access may require
                             registration).
                         </li>
                     </ul>
@@ -2661,8 +2169,9 @@
                 <div class="collapse" id="lab8-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516154"
-                                                 target="_blank">AIC-Module 12: Elastic Beanstalk and CloudFormation</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516154"
+                                target="_blank">AIC-Module 12: Elastic Beanstalk and CloudFormation</a>.
                         </li>
                     </ul>
                 </div>
@@ -2745,11 +2254,12 @@
                     <ul>
                         <li>Student Guide for <a
                                 href="https://awsacademy.instructure.com/courses/3781/modules/items/462300"
-                                target="_blank">ACF-Module 7: Storage</a>, AWS Academy Cloud Foundations course.</li>
+                                target="_blank">ACF-Module 7: Storage</a>, AWS Academy Cloud Foundations course.
+                        </li>
                         <li>Student Guide for
                             <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516137"
                                target="_blank">AIC-Module 6: Virtual Storage</a>,
-                               AWS Academy Introduction to Cloud - Semester 1 course.
+                            AWS Academy Introduction to Cloud - Semester 1 course.
                         </li>
                     </ul>
                 </div>
@@ -2796,7 +2306,7 @@
                     <ul>
                         <li>Watch the videos of
                             <a href="https://awsacademy.instructure.com/courses/3781/modules" target="_blank">
-                              ACF-Module 8: Databases</a>.
+                                ACF-Module 8: Databases</a>.
                         </li>
                     </ul>
                 </div>
@@ -2832,7 +2342,7 @@
                         <li>Student Guide for
                             <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516148"
                                target="_blank">AIC-Module 8: Databases</a> of the AWS Academy Introduction
-                               to Cloud - Semester 1 course.
+                            to Cloud - Semester 1 course.
                         </li>
                         <li>Student Guides for
                             <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462311"
@@ -2887,7 +2397,8 @@
                     <strong>Videos:</strong>
                     <ul>
                         <li>Watch the videos of
-                            <a href="https://awsacademy.instructure.com/courses/3781/modules#module_57478" target="_blank">
+                            <a href="https://awsacademy.instructure.com/courses/3781/modules#module_57478"
+                               target="_blank">
                                 ACF-Module 9: Cloud Architecture</a>.
                         </li>
                     </ul>
@@ -2923,7 +2434,8 @@
                         </li>
                         <li><a href="https://docs.openstack.org/train/" target="_blank">OpenStack Documentation.</a>
                         </li>
-                        <li><a href="https://information-technology.web.cern.ch/sites/information-technology.web.cern.ch/files/OpenStack%20training.pdf"
+                        <li>
+                            <a href="https://information-technology.web.cern.ch/sites/information-technology.web.cern.ch/files/OpenStack%20training.pdf"
                                target="_blank">OpenStack training</a> (2014), CERN.
                         </li>
                     </ul>
@@ -2954,11 +2466,15 @@
                 <div class="collapse epl425-learnout" id="prec12-learn">
                     <strong>Learning Objectives:</strong>
                     <ul>
-                        <li>Indicate how to distribute traffic across Amazon EC2 instances by using Elastic Load Balancing</li>
+                        <li>Indicate how to distribute traffic across Amazon EC2 instances by using Elastic Load
+                            Balancing
+                        </li>
                         <li>Identify how Amazon CloudWatch enables you to monitor AWS resources and applications
-                            in real time</li>
+                            in real time
+                        </li>
                         <li>Explain how Amazon EC2 Auto Scaling launches and releases servers in response to workload
-                            changes</li>
+                            changes
+                        </li>
                         <li>Perform scaling and load balancing tasks to improve an architecture</li>
                     </ul>
                 </div>
@@ -2967,7 +2483,8 @@
                     <ul>
                         <li>Student Guides for
                             <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462331"
-                               target="_blank">ACF-Module 10: Automatic Scaling and Monitoring</a> of the AWS Foundations course.
+                               target="_blank">ACF-Module 10: Automatic Scaling and Monitoring</a> of the AWS
+                            Foundations course.
                         </li>
                     </ul>
                 </div>
@@ -3007,8 +2524,9 @@
                 <div class="collapse" id="lab12-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Student Guide for <a href="https://awsacademy.instructure.com/courses/4354/modules/items/516145"
-                                                 target="_blank">AIC-Module 9: Monitoring the Cloud</a>.
+                        <li>Student Guide for <a
+                                href="https://awsacademy.instructure.com/courses/4354/modules/items/516145"
+                                target="_blank">AIC-Module 9: Monitoring the Cloud</a>.
                         </li>
                     </ul>
                 </div>
