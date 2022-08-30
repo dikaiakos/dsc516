@@ -109,7 +109,7 @@
                     <li><a href="resources.html">Resources</a></li>
                     <li><a href="assignments.html">Assignments</a></li>
                     <li><a href="contract.html">Contract</a></li>
-                    <li><a href="https://discord.com/channels/1012729837628162159/1012730254130937866" target="_new">Online Forum</a></li>
+                    <li><a href="https://moodle.cs.ucy.ac.cy/course/view.php?id=352" target="_new">Online Forum</a></li>
                 </ul>
             </nav>
         </div>
@@ -132,7 +132,7 @@
                         <li><a href="resources.html">Resources</a></li>
                         <li><a href="assignments.html">Assignments</a></li>
                         <li><a href="contract.html">Contract</a></li>
-                        <li><a href="https://discord.com/channels/1012729837628162159/1012730254130937866" target="_new">Online Forum</a>
+                        <li><a href="https://moodle.cs.ucy.ac.cy/course/view.php?id=352" target="_new">Online Forum</a>
                         </li>
                     </ul>
                 </div>
@@ -858,12 +858,12 @@
 
 
         <tr class="epl425-learnout">
-            <th colspan="2">Module 3: Cloud Computing Infrastructure</th>
+            <th colspan="2">Module 3: Data centers and Warehouse-scale Computers</th>
         </tr>
         <!- LECTURE 5 ->
         <tr>
             <td scope="row" style="white-space:nowrap"class="epl425-lecture">Lecture 5:</td>
-            <td style="width: 100%"><strong>Data Centers and Warehouse Scale Computers</strong>
+            <td style="width: 100%"><strong>Warehouse Scale Computers</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#lect5-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
@@ -882,7 +882,6 @@
                         <li>Understand and explain the basic characteristics of Warehouse Scale Computers.</li>
                         <li>Understand and explain the difference between Warehouse Scale Computers and data centers.
                         </li>
-                        <li>Understand and explain the software infrastructure building blocks of WSC.</li>
                         <li>Understand and describe the hardware building blocks of WSC, such as cluster nodes,
                             accelerators, TPUs and GPUs.
                         </li>
@@ -904,11 +903,9 @@
                 <div class="collapse" id="lect5-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Barroso, L. A., Holzle, U. & P. Raganathan (2018).
-                            <a href="https://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046"
-                               target="_blank">The data center as a Computer. An Introduction to the Design of
-                                Warehouse-Scale Machines. Third Edition.</a> In Synthesis Lectures on Computer
-                            Architecture (Vol. 2, Issue 1). Morgan & Claypool Publishers. Chapters 1-2.
+                        <li>Chapters 1, 3, 4, 5, 6, <a href="https://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046"
+                                                       target="_blank">The data center as a Computer. An Introduction to the Design of
+                            Warehouse-Scale Machines. Third Edition.</a> Barroso, Holzle, & Raganathan (2018).
                         </li>
                     </ul>
                     <strong>Additional Reading:</strong>
@@ -1063,7 +1060,7 @@
         <!- LECTURE 6 ->
         <tr>
             <td scope="row" style="white-space:nowrap"class="epl425-lecture">Lecture 6:</td>
-            <td style="width: 100%"><strong>Cloud Infrastructure and Workloads</strong>
+            <td style="width: 100%"><strong>Cloud Infrastructure Software, Workloads, and Metrics</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#lect6-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
@@ -1079,13 +1076,12 @@
                 <div class="collapse epl425-learnout" id="lect6-learn">
                     <strong>Learning Objectives:</strong>
                     <ul>
+                        <li>Understand and explain the software infrastructure building blocks of WSC.</li>
                         <li>Understand and explain the characteristics of typical workloads running on WSC.</li>
                         <li>Understand and explain the role of monitoring systems, and the concepts of blackbox
-                            monitoring and instrumentation.
-                        </li>
+                            monitoring and instrumentation.</li>
                         <li>Review, understand and explain common techniques for improving the performance and
-                            availability of WSC.
-                        </li>
+                            availability of WSC.</li>
                         <li>Understand and explain the concept of tail-latency.</li>
                         <li>Become familiar and explain the challenges arising from deploying cloud computing
                             technologies in Warehouse Scale Computers, in particular for availability and resource
@@ -1101,36 +1097,31 @@
                 <div class="collapse" id="lect6-read">
                     <strong>Readings:</strong>
                     <ul>
-                        <li>Barroso, L. A., Holzle, U. & P. Raganathan (2018).
+                        <li>Chapters 2, 7, 8.
                             <a href="https://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046"
                                target="_blank">The data center as a Computer. An Introduction to the Design of
-                                Warehouse-Scale Machines.
-                                Third Edition.</a> In Synthesis Lectures on Computer Architecture (Vol. 2, Issue 1).
-                            Morgan & Claypool
-                            Publishers. Chapters 4-5.
+                                Warehouse-Scale Machines.</a> Barroso, Holzle, Raganathan (2018).
                         </li>
-                        <li>A. Fox and E. A. Brewer, “Harvest, yield, and scalable tolerant systems,” Proc. Work. Hot
+                        <li>"Lessons from giant-scale services," E. Brewer, IEEE Internet Comput., vol. 5, no. 4, pp.
+                            46–55, Jul. 2001.
+                        </li>
+                        <li>"CAP twelve years later: How the ‘rules’ have changed," E. Brewer,
+                            Computer, vol. 45, no. 2, pp. 23–29, Jan. 2012.
+                        </li>
+                        <li>"Harvest, yield, and scalable tolerant systems," A. Fox and E. A. Brewer,  Proc. Work. Hot
                             Top. Oper. Syst. - HOTOS, pp. 174–178, 1999.
+                        </li>
+                        <li>"The tail at scale," J. Dean and L. A. Barroso, Commun. ACM, vol. 56, no. 2, pp. 74–80, Feb.
+                            2013.
                         </li>
                     </ul>
                     <strong>Additional Readings:</strong>
                     <ul>
-                        <li>J. Dean and L. A. Barroso, “The tail at scale,” Commun. ACM, vol. 56, no. 2, pp. 74–80, Feb.
-                            2013.
-                        </li>
-                        <li>L. Barroso, M. Marty, D. Patterson, and P. Ranganathan, “Attack of the killer microseconds,”
+                        <li>"Attack of the killer microseconds," L. Barroso, M. Marty, D. Patterson, and P. Ranganathan,
                             Commun. ACM, vol. 60, no. 4, pp. 48–54, Apr. 2017.
                         </li>
-                        <li>Neocleous, K., Dikaiakos, M. D., Fragopoulou, P., & Markatos, E. P. (2007).
-                            Failure management in Grids: The case of the EGEE infrastructure. Parallel Processing
-                            Letters, 17(4),
-                            391–410. <a href="https://doi.org/10.1142/S0129626407003113" target="_blank">https://doi.org/10.1142/S0129626407003113</a>.
-                        </li>
-                        <li>E. A. Brewer, “Lessons from giant-scale services,” IEEE Internet Comput., vol. 5, no. 4, pp.
-                            46–55, Jul. 2001.
-                        </li>
-                        <li>E. Brewer, “CAP twelve years later: How the ‘rules’ have changed,” Computer (Long. Beach.
-                            Calif)., vol. 45, no. 2, pp. 23–29, Jan. 2012.
+                        <li>"Failure management in Grids: The case of the EGEE infrastructure," Neocleous, Dikaiakos, Fragopoulou, & Markatos,
+                            Parallel Processing  Letters, 17(4), 2007, pp 391–410. <a href="https://doi.org/10.1142/S0129626407003113" target="_blank">https://doi.org/10.1142/S0129626407003113</a>.
                         </li>
                         <li><a href="https://en.wikipedia.org/wiki/CAP_theorem" target="_blank">CAP Theorem</a>
                             (Wikipedia).
