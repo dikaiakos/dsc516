@@ -148,7 +148,8 @@
     <h3>Semester Projects</h3>
 
     <article>
-        <h4>P1: Generative ML models deployment on AWS lambdas</h4>
+        <h4>Generative ML models deployment on AWS lambdas</h4>
+        <p><strong>Team</strong>: S. Efi, L. Charalambos</p>
         <p><b>Generative AI</b> has significantly impacted our daily lives by offering a diverse range of support for various tasks,
             including survey creation, text generation, text-to-image conversion, and more. While many of these models are
             initially developed as closed-source solutions, a wide array of such models are now publicly accessible. Machine
@@ -164,28 +165,20 @@
             which offers a user-friendly programming interface for AWS Lambda development. Finally, students will formulate a
             series of queries and employ workload generation software, such as Taurus, to conduct comprehensive evaluation tests,
             covering aspects like latency, throughput, cold start times, and more.</p>
-        <strong>Tools & libraries:</strong>  https://github.com/aws/chalice, https://huggingface.co/<br/>
+        <strong>Tools & libraries:</strong>
+        <ul>
+            <li><a href="https://aws.amazon.com/lambda/"  target="_blank">AWS Lambda</a> </li>
+            <li><a href="https://aws.amazon.com/chalice/"  target="_blank">Chalice</a></li>
+            <li><a href="https://huggingface.co/"  target="_blank">Huggingface</a></li>
+            <li><a href="https://gettaurus.org/"  target="_blank">Gettaurus</a></li>
+        </ul>
         <strong>Note:</strong> Students should create an AWS account and spend their free credits for this exercise<br />
     </article>
+    <hr/>
 
     <article>
-        <h4>P2: Cloud-based Auto-installation with Infrastructure-as-Code (IaS) tools: The case of Fogify Framework</h4>
-        <p>Continuous Integration and Continuous Delivery (CI/CD) pipelines have given rise to the demand for tools that automate not only
-            the deployment of code onto pre-existing infrastructure but also the provisioning and instantiation of the infrastructure itself.
-            For the latter purpose, Infrastructure-as-Code (IaC) tools have emerged, with the majority of them offering integrations with
-            well-established Cloud providers like AWS, Google, and more. DevOps professionals and system administrators leverage tools
-            such as Terraform, Pulumi, Ansible, and others to craft maintainable scripts that accurately reflect system deployments. In this
-            exercise, students are encouraged to explore these tools, choose the most suitable one for their needs, and create a script
-            enabling users to establish a virtual infrastructure capable of running the Fogify emulation framework. Furthermore, this IaC
-            script should be highly customizable, allowing users to input their cloud credentials. Subsequently, the script will orchestrate
-            the creation of the corresponding virtual environment, installation of required packages (e.g., Docker, Docker Compose, etc.),
-            retrieval of Fogify's code, and configuration of Fogify's settings.</p>
-
-        <strong>Tools & libraries:</strong> https://www.terraform.io/, https://www.pulumi.com/, https://www.ansible.com/, https://ucy-linc-lab.github.io/fogify/getting-started.html<br />
-        <strong>Note:</strong> Students should create an AWS or Google Cloud account and spend their free credits for this exercise
-    </article>
-    <article>
-        <h4>P3: Building a generative AI-enabled chatbot for generating Fog/Edge Emulation deployments</h4>
+        <h4>Building a generative AI-enabled chatbot for generating Fog/Edge Emulation deployments</h4>
+        <p><strong>Team</strong>: L. Antonis, Ch. Andreas, P. Panagiotis</p>
         <p>Developing a generative AI-powered chatbot tailored for Fog/Edge Emulation deployments represents an exciting convergence
             of cutting-edge technology. This endeavor draws inspiration from the capabilities of advanced Generative AI models such as
             ChatGPT, which excel in comprehending and generating human-like text. The primary objective here is to harness the potential of
@@ -196,10 +189,18 @@
             transmit these enhanced queries to a powerful large language model (LLM), such as the ChatGPT API, and relay the LLM's responses
             back to the client. Students will consider Fogify as the underlying emulation engine, and to facilitate their prompt engineering,
             they will utilize the modeling abstractions provided by Fogify's dedicated documentation page.</p>
-        <strong>Tools & libraries:</strong> Fogify’s documentation https://ucy-linc-lab.github.io/fogify/, software for API creation (https://fastapi.tiangolo.com or https://flask.palletsprojects.com), optional software for LLM and Prompt engineering https://python.langchain.com<br/>
+        <strong>Tools & libraries:</strong>
+        <ul>
+            <li>Fogify’s <a href="https://ucy-linc-lab.github.io/fogify/" target="_blank">documentation</a></li>
+            <li>Software for API creation: <a href="https://fastapi.tiangolo.com" target="_blank">Fastapi</a>, <a href="https://flask.palletsprojects.com" target="_blank">Flask</a></li>
+            <li>Optional software for: <a href="https://python.langchain.com" target="_blank">LLM and Prompt engineering</a></li>
+        </ul>
         <strong>Note:</strong> Students may need to create an OpenAI account to use the ChatGPT API
     </article>
-    <h4>P4: Federated Learning Performance Evaluation for different models and libraries</h4>
+    <hr/>
+
+    <h4>Federated Learning Performance Evaluation for different models and libraries</h4>
+    <article><strong>Team:</strong> T., Fedor, T., Grigorii, C., Panikos</article>
     <article> <p>Federated Learning (FL) is transforming the realm of Artificial Intelligence (AI) by enabling collaborative model
         training among multiple clients in a distributed manner. With FL, geo-dispersed and sensitive data such as personal activity,
         bio-signals and financial records remain localized and unexposed to the other collaborators during training. FL embraces a
@@ -210,12 +211,17 @@
         by integrating a general purpose FL system, namely flower, with a deep learning library, namely keras core, that allows users to
         write their models once and change the backend ML execution engine (TensorFlow, JAX, and PyTorch) by only changing a
         parameter. Moreover, keras provides a set of pre-defined models with their datasets. Based on these models, students would be
-        able to evaluate the performance of different ML backend libraries,
-        FL parameters (like aggregation algorithms), and so on.</p>
-        <strong>Tools & libraries:</strong> https://keras.io/keras_core/announcement/, http://flower.dev/<br/>
+        able to evaluate the performance of different ML backend libraries, FL parameters (like aggregation algorithms), and so on.</p>
+        <strong>Tools & libraries:</strong>
+        <ul>
+            <li><a href="https://keras.io/keras_core/announcement/" target="_blank">Keras</a> </li>
+            <li><a href="https://flower.dev/" target="_blank">Flower</a> </li>
+        </ul>
     </article>
+    <hr/>
 
-    <h4>P5: Edge Application use-case deployment on various emulation frameworks</h4>
+    <h4>Edge Application use-case deployment on various emulation frameworks</h4>
+    <article><strong>Team:</strong> Ch., Stelios, T., Chr., Katerina</article>
     <article>
         <p>Fog and Edge Computing is emerging as a dominant paradigm that bridges the computing and connectivity gap between
             sensing devices and latency-sensitive services. However, experimenting with and evaluating IoT services can be a formidable
@@ -228,73 +234,15 @@
             Students can leverage pre-existing containerized applications (e.g., Fogify’s demo) and deploy them on Fog and Edge Computing
             emulation frameworks like Containernet, Marvis, MaxiNet, etc. Subsequently, they will submit the generated codebase along with a
             report describing the challenges encountered during the process.</p>
-        <strong>Tools & libraries:</strong> https://containernet.github.io/, https://github.com/diselab/marvis, https://maxinet.github.io/, https://github.com/UCY-LINC-LAB/fogify-demo<br/>
-    </article>
-    <h4>P6: Parameter tuning for AWS Big Data deployments</h4>
-    <article>
-        <p>In the realm of cloud computing, users possess the flexibility to fine-tune their cloud configurations in order to align
-            them with their specific performance and cost objectives. This becomes particularly vital in the context of big data applications,
-            which often involve extended execution times. The selection of the appropriate cloud virtual machine (VM) carries substantial implications
-            for both performance and economic factors. To address this challenge, a wealth of datasets stemming from real-world Big Data execution
-            scenarios on cloud infrastructures is available. Researchers leverage these datasets as foundations for the implementation of optimization
-            strategies. In this exercise, students will delve into one such dataset, offering a comprehensive collection of performance metrics derived
-            from big data workloads running across a wide array of cloud configurations on Amazon EC2. Each configuration in this dataset consists of
-            a specific virtual machine (VM) type and a variable number of identical VM instances. The dataset encompasses both single-node and
-            multi-node settings. The former comprises 18 distinct VM types, while the latter encompasses 69 configurations, comprising 9 different
-            VM types and various VM quantities. Equipped with this dataset, students will undertake the task of constructing an automated pipeline.
-            This pipeline accepts as input the nature of the big data process and a designated object, subsequently identifying a configuration that
-            approximates the optimal one. This is achieved by applying auto-parameter tuning techniques, a well-established methodology drawn
-            from the field of machine learning. To facilitate this, students will use machine learning optimization libraries, such as Optuna, to deploy
-            these techniques in the realm of infrastructure configuration for cloud computing deployments.
-        </p>
-        <strong>Tools & libraries:</strong> https://optuna.readthedocs.io<br>
-        <strong>Dataset:</strong> https://github.com/oxhead/scout<br>
+        <strong>Tools & libraries:</strong>
+        <ul>
+            <li><a href="https://containernet.github.io/" target="_blank">containernet</a> </li>
+            <li><a href="https://github.com/diselab/marvis" target="_blank">marvis</a> </li>
+            <li><a href="https://github.com/UCY-LINC-LAB/fogify-demo" target="_blank">Fogify Demo</a> </li>
+        </ul>
     </article>
 
-    <h4>P7: Parameter tuning for Edge-enabled Spark smart city deployments utilizing SparkEdgeEmu</h4>
-    <article><p>Edge Computing emerges as a stable and efficient solution for IoT data processing and analytics. With big data distributed engines
-        to be deployed on edge infrastructures, users seek solutions to increase the performance of their analytics queries by tuning the
-        Apache Spark’s parameters and the devices of the Edge deployment. SparkEdgeEmu is an interactive framework designed for
-        researchers and practitioners who need to inspect the performance of Spark analytic jobs without the edge topology setup burden.
-        SparkEdgeEmu provides: (i) parameterizable template-based use cases for edge infrastructures, (ii) real-time emulated environments
-        serving ready-to-use Spark clusters, (iii) a unified and interactive programming interface for the framework's execution and query
-        submission, and (vi) utilization metrics from the underlying emulated topology as well as performance and quantitative metrics from
-        the deployed queries. In this exercise, students will try to optimize the parameters of the Apache Spark Cluster and the selection of
-        Edge devices by automating the hyper parameter tuning of such deployments via emulation. So, the generated software will try to
-        minimize the emulation trials utilizing ML optimization libraries and extracting the performance metrics from the emulator.</p>
-        <strong>Tools & libraries:</strong> https://optuna.readthedocs.io https://github.com/UCY-LINC-LAB/SparkEdgeEmu<br>
-    </article>
-
-    <h4>P8: Energy Modeling of Edge Computing Devices (Raspberry Pi 4)</h4>
-    <article>
-        <p>The growing demand for energy-efficient solutions in IoT devices and edge computing necessitates innovative approaches for developing
-            precise power models across a wide range of devices. This enables sustainable growth and enhances performance optimization.
-            Typically, the utilization metrics of computing devices, such as CPU usage and network traffic, significantly impact their energy
-            consumption. In this project, students will have the opportunity to work with an existing dataset containing real-world utilization
-            measurements, including CPU, memory, and network I/O, collected from a Raspberry Pi 4 and its corresponding power consumption data.
-            Leveraging these measurements, students will construct multiple AI and ML models and assess their performance, particularly in terms
-            of accuracy. Subsequently, students will evaluate these models using performance metrics obtained from previously unseen measurements
-            of an image inference application. This evaluation will allow them to test the robustness and effectiveness of their models on new testing
-            data.</p>
-        <strong>Tools & libraries:</strong> any AI & ML libraries like sklearn, PyTorch, TensorFlow, etc.
-    </article>
-
-    <h4>P9: Data analysis and Modeling of Green micro-DCs</h4>
-    <article><p>The drive to minimize the environmental impact and carbon footprint associated with data-center operations has given rise to the
-        concept of "green" data centers. These data centers are specifically engineered to reduce energy consumption and increase their reliance
-        on Renewable Energy Sources (RES). While large-scale data facilities have made notable strides in enhancing energy efficiency and
-        transitioning to green energy sources, the smaller and medium-sized data centers, which collectively account for more than 50% of
-        the total electricity consumption and carbon emissions within the sector, confront notable obstacles in adopting and harnessing
-        renewable energy. Within the framework of the Enedi project, a UCY academic small data center is transformed into a "green" facility,
-        accomplishing this by harnessing solar power through the installation of photovoltaic panels on the building's rooftop. Additionally,
-        a cyber-physical monitoring system was established, incorporating IoT sensors linked to the photovoltaic panels and monitoring agents
-        integrated into the physical machines within the data center cluster. Within this project, students will conduct a data analysis using
-        information collected from the system's monitoring server, known as Prometheus. To retrieve this data, they will employ libraries, such
-        as prometheus-pandas, and perform an initial exploratory analysis focused on specific time ranges. As the final step, students will
-        develop Artificial Intelligence (AI) and Machine Learning (ML) models designed to predict the
-        energy consumption and energy production patterns within the system.</p>
-        <strong>Tools & libraries:</strong> prometheus-pandas (http://pypi.org/project/prometheus-pandas/) and any AI & ML libraries like sklearn, PyTorch, TensorFlow, etc.
-    </article>
+    <hr/>
 
     <footer class="hidden-print">
         <hr/>
