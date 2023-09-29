@@ -144,6 +144,23 @@
         edstem forum for DSC516/EPL602 that has been set for class communication, announcements, etc.
     </article>
 
+    <h3>Assignment 2</h3>
+    <article>
+        <h4>Question 1:</h4>
+        <p>
+        Suppose a biology lab creates 2 TB of new data for every wet lab experiment.  A computer the speed of one EC2 instance
+            takes 0.5 hour per GB to process the new data. The lab has the equivalent 5 instances locally. Explore the tradeoffs
+            between computing the experiments in house, on Amazon, on Google Cloud, and on Microsoft’s Azure.
+        </p>
+        <h4>Question 2:</h4>
+    <p>
+        Considering the cost analysis presented in <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwje8rmSuc-BAxW2V6QEHfkKAQMQFnoECBMQAQ&url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fresearch%2Fwp-content%2Fuploads%2F2016%2F02%2Ftr-2003-24.doc&usg=AOvVaw1cuIjT3Z8M-9yI5cItOsen&opi=89978449" target="_blank">Jim
+        Gray report</a>, and the updated analysis presented in Table 5 of the  "Above the clouds: A Berkeley view of cloud computing. University of California, Berkeley,
+        Technical Report No. UCB/EECS-2009-28"  discussed in class, your task is to update Table 5 with 2023 cost estimates of computing, storage, and networking. Explain
+        where you got your data and provide references to the sources used.
+    </p>
+    </article>
+
     <hr/>
     <h3>Semester Projects</h3>
 
@@ -243,6 +260,30 @@
     </article>
 
     <hr/>
+
+    <h4>Parameter tuning for AWS Big Data deployments</h4>
+    <article><strong>Team:</strong> A. Maria, K. Ioannis</article>
+    In the realm of cloud computing, users possess the flexibility to fine-tune their cloud configurations in order to align them
+    with their specific performance and cost objectives. This becomes particularly vital in the context of big data applications,
+    which often involve extended execution times. The selection of the appropriate cloud virtual machine (VM) carries substantial
+    implications for both performance and economic factors. To address this challenge, a wealth of datasets stemming from real-world
+    Big Data execution scenarios on cloud infrastructures is available. Researchers leverage these datasets as foundations for the
+    implementation of optimization strategies. In this exercise, students will delve into one such dataset, offering a comprehensive
+    collection of performance metrics derived from big data workloads running across a wide array of cloud configurations on Amazon
+    EC2. Each configuration in this dataset consists of a specific virtual machine (VM) type and a variable number of identical VM instances.
+    The dataset encompasses both single-node and multi-node settings. The former comprises 18 distinct VM types, while the latter
+    encompasses 69 configurations, comprising 9 different VM types and various VM quantities. Equipped with this dataset, students
+    will undertake the task of constructing an automated pipeline. This pipeline accepts as input the nature of the big data process and
+    a designated object, subsequently identifying a configuration that approximates the optimal one. This is achieved by applying auto-parameter
+    tuning techniques, a well-established methodology drawn from the field of machine learning. To facilitate this, students will use machine
+    learning optimization libraries, such as Optuna, to deploy these techniques in the realm of infrastructure configuration for cloud computing
+    deployments.
+    <strong>Tools & libraries:</strong>
+        <ul>
+            <li><a href="https://optuna.readthedocs.io" target="_blank">Optuna</a></li>
+            <li>Dataset: <a href="https://github.com/oxhead/scout" target="_blank">scout</a></li>
+        </ul>
+
 
     <footer class="hidden-print">
         <hr/>
