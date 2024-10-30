@@ -1051,7 +1051,7 @@
         <!- PRECEPT 6 ->
         <tr>
             <td class="epl425-precept" scope="row" style="white-space:nowrap">Precept 6: w7</td>
-            <td><strong>Networking and Content Delivery on AWS</strong>
+            <td><strong>Networking and Content Delivery and Computation on AWS</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#prec6-learn" data-toggle="collapse"
                         type="button">
                     <span class="fi-target-two"></span> Learning Objectives
@@ -1076,12 +1076,19 @@
                         <li>Create your own VPC and add additional components to it to produce a customized network</li>
                         <li>Identify the fundamentals of Amazon Route 53</li>
                         <li>Recognize the benefits of Amazon CloudFront, the AWS content delivery network (CDN).</li>
+                        <li>Provide an overview of different AWS compute services in the cloud</li>
+                        <li>Demonstrate why to use Amazon Elastic Compute Cloud (Amazon EC2)</li>
+                        <li>Identify the functionality in the EC2 console</li>
+                        <li>Perform basic functions in Amazon EC2 to build a virtual computing environment</li>
+                        <li>Identify Amazon EC2 cost optimization elements</li>
                     </ul>
                 </div>
                 <div class="collapse" id="prec6-read">
                     <strong>Readings:</strong>
                     <ul>
                         <li>Student Guide for the ACF-Module 5: Networking and Content Delivery.
+                        </li>
+                        <li>Student Guide for  ACF-Module 6: Compute Cloud.
                         </li>
                     </ul>
                 </div>
@@ -1090,54 +1097,7 @@
                     <ul>
                         <li>Watch the videos of ACF Module 5: Networking and Content Delivery.
                         </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
-
-
-        <!- PRECEPT 7 ->
-        <tr>
-            <td class="epl425-precept" scope="row" style="white-space:nowrap">Precept 7</td>
-            <td><strong>AWS Compute Cloud I</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec7-videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="prec7-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Provide an overview of different AWS compute services in the cloud</li>
-                        <li>Demonstrate why to use Amazon Elastic Compute Cloud (Amazon EC2)</li>
-                        <li>Identify the functionality in the EC2 console</li>
-                        <li>Perform basic functions in Amazon EC2 to build a virtual computing environment</li>
-                        <li>Identify Amazon EC2 cost optimization elements</li>
-                    </ul>
-                </div>
-                <div class="collapse" id="prec7-read">
-                    <strong>Readings:</strong>
-                    <ul>
-                        <li>Student Guide for <a
-                                href="https://awsacademy.instructure.com/courses/3781/modules/items/462287"
-                                target="_blank">ACF-Module 6: Compute Cloud</a> (access requires registration).
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="prec7-videos">
-                    <strong>Videos:</strong>
-                    <ul>
-                        <li>Watch the videos of
-                            <a href="https://awsacademy.instructure.com/courses/3781/modules" target="_blank">
-                                Module 6: Compute Cloud</a>.
+                        <li>Watch the videos of Module 6: Compute Cloud.
                         </li>
                     </ul>
                 </div>
@@ -1147,11 +1107,14 @@
 
 
 
+        <tr class="epl425-learnout">
+            <th colspan="2">Module 4: Virtualization, Containers and Storage</th>
+        </tr>
 
 
         <!- LAB 6 ->
         <tr>
-            <td class="danger" scope="row" style="white-space:nowrap">Lab 6</td>
+            <td class="danger" scope="row" style="white-space:nowrap">Lab 6: w8</td>
             <td><strong>AWS Content Delivery Practice</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#lab6-learn" data-toggle="collapse"
                         type="button"><span class="fi-target-two"></span> Learning Objectives
@@ -1200,15 +1163,65 @@
             </td>
         </tr>
 
-
-        <tr class="epl425-learnout">
-            <th colspan="2">Module 4: Virtualization, Containers and Storage</th>
+        <!- PRECEPT 7->
+        <tr>
+            <td class="epl425-precept" scope="row" style="white-space:nowrap">Precept 7: w8</td>
+            <td><strong>AWS Storage and Databases</strong>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#prec14-learn" data-toggle="collapse"
+                        type="button">
+                    <span class="fi-target-two"></span> Learning Objectives
+                </button>
+                <button class="btn btn-default btn-xs hidden-print" data-target="#prec14-read" data-toggle="collapse"
+                        type="button">
+                    <span class="glyphicon glyphicon-book"></span> Readings
+                </button>
+                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec14-videos"
+                        data-toggle="collapse"
+                        type="button"> Videos
+                </button>
+                <div class="collapse epl425-learnout" id="prec14-learn">
+                    <strong>Learning Objectives:</strong>
+                    <ul>
+                        <li>Identify the different types of storage in AWS</li>
+                        <li>Explain Amazon S3, EBS, EFS, S3 Glacier, their differences and identify their
+                            functionalities
+                        </li>
+                        <li>Perform functions in Amazon EBS to build an Amazon EC2 storage solution</li>
+                        <li>Explain and use Amazon Relational Database Service (Amazon RDS), DynamoDB and their
+                            functionalities
+                        </li>
+                        <li>Explain Amazon Redshift and Aurora</li>
+                        <li>Perform tasks in an RDS database, such as launching, configuring, and interacting</li>
+                    </ul>
+                </div>
+                <div class="collapse" id="prec14-read">
+                    <strong>Readings:</strong>
+                    <ul>
+                        <li>Student Guides for  Module 7: Storage
+                            of the AWS Foundations course.
+                        </li>
+                        <li>Student Guides for
+                            ACF-Module 8: Databases of the AWS Foundations course.
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse" id="prec14-videos">
+                    <strong>Videos:</strong>
+                    <ul>
+                        <li>Watch the videos of  Module 7.
+                        </li>
+                        <li>Watch the videos of
+                            ACF-Module 8: Databases.
+                        </li>
+                    </ul>
+                </div>
+            </td>
         </tr>
 
 
         <!- Topic 7 ->
         <tr>
-            <td scope="row" style="white-space:nowrap"class="epl425-lecture">Topic 7</td>
+            <td scope="row" style="white-space:nowrap"class="epl425-lecture">Topic 7: w8</td>
             <td style="width: 100%"><strong>Virtualization</strong>
                 <button class="btn btn-default btn-xs hidden-print" data-target="#lect7-learn" data-toggle="collapse"
                         type="button">
@@ -1298,6 +1311,10 @@
                 </div>
             </td>
         </tr>
+
+
+
+
 
         <!- PRECEPT 9 ->
         <tr>
@@ -1506,55 +1523,6 @@
             <td bgcolor="#FF99F9"> Topics: Modules 1, 2, 3
             </td>
         </tr>
-
-        <!- PRECEPT 10 ->
-        <tr>
-            <td class="epl425-precept" scope="row" style="white-space:nowrap">Precept 10</td>
-            <td><strong>AWS Storage</strong>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#prec11-learn" data-toggle="collapse"
-                        type="button">
-                    <span class="fi-target-two"></span> Learning Objectives
-                </button>
-                <button class="btn btn-default btn-xs hidden-print" data-target="#prec11-read" data-toggle="collapse"
-                        type="button">
-                    <span class="glyphicon glyphicon-book"></span> Readings
-                </button>
-                <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec11-videos"
-                        data-toggle="collapse"
-                        type="button"> Videos
-                </button>
-                <div class="collapse epl425-learnout" id="prec11-learn">
-                    <strong>Learning Objectives:</strong>
-                    <ul>
-                        <li>Identify the different types of storage in AWS</li>
-                        <li>Explain Amazon S3, EBS, EFS, S3 Glacier, their differences and identify their
-                            functionalities
-                        </li>
-                        <li>Perform functions in Amazon EBS to build an Amazon EC2 storage solution</li>
-                    </ul>
-                </div>
-                <div class="collapse" id="prec11-read">
-                    <strong>Readings:</strong>
-                    <ul>
-                        <li>Student Guides for <a
-                                href="https://awsacademy.instructure.com/courses/55277/modules"
-                                target="_blank">Module 7: Storage</a>
-                            of the AWS Foundations course.
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse" id="prec11-videos">
-                    <strong>Videos:</strong>
-                    <ul>
-                        <li>Watch the videos of
-                            <a href="https://awsacademy.instructure.com/courses/55277/modules" target="_blank">
-                                Module 7</a>.
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
-
 
 
 
@@ -2127,52 +2095,6 @@
 
 
 
-<!- PRECEPT 10 ->
-<tr>
-    <td class="epl425-precept" scope="row" style="white-space:nowrap">Precept 14:</td>
-    <td><strong>AWS Databases</strong>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#prec14-learn" data-toggle="collapse"
-                type="button">
-            <span class="fi-target-two"></span> Learning Objectives
-        </button>
-        <button class="btn btn-default btn-xs hidden-print" data-target="#prec14-read" data-toggle="collapse"
-                type="button">
-            <span class="glyphicon glyphicon-book"></span> Readings
-        </button>
-        <button class="fi-play-video btn btn-default btn-xs hidden-print" data-target="#prec14-videos"
-                data-toggle="collapse"
-                type="button"> Videos
-        </button>
-        <div class="collapse epl425-learnout" id="prec14-learn">
-            <strong>Learning Objectives:</strong>
-            <ul>
-                <li>Explain and use Amazon Relational Database Service (Amazon RDS), DynamoDB and their
-                    functionalities
-                </li>
-                <li>Explain Amazon Redshift and Aurora</li>
-                <li>Perform tasks in an RDS database, such as launching, configuring, and interacting</li>
-            </ul>
-        </div>
-        <div class="collapse" id="prec14-read">
-            <strong>Readings:</strong>
-            <ul>
-                <li>Student Guides for
-                    <a href="https://awsacademy.instructure.com/courses/3781/modules/items/462311"
-                       target="_blank">ACF-Module 8: Databases</a> of the AWS Foundations course.
-                </li>
-            </ul>
-        </div>
-        <div class="collapse" id="prec14-videos">
-            <strong>Videos:</strong>
-            <ul>
-                <li>Watch the videos of
-                    <a href="https://awsacademy.instructure.com/courses/3781/modules" target="_blank">
-                        ACF-Module 8: Databases</a>.
-                </li>
-            </ul>
-        </div>
-    </td>
-</tr>
 
 <!- LAB 14 ->
 <tr>
